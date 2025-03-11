@@ -1,0 +1,18 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "all_2dir_transformer_tutorial"}, "version": 1, "at": 1741629162.231767}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741629162.231972}
+{"obj": {"type": "AssignString", "path": ["monitoring", "93afa16d", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741629162.2320461}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741629162.2321}
+{"obj": {"type": "AssignString", "path": ["monitoring", "93afa16d", "pid"], "value": "37378"}, "version": 5, "at": 1741629162.2321532}
+{"obj": {"type": "AssignString", "path": ["monitoring", "93afa16d", "tid"], "value": "8071241408"}, "version": 6, "at": 1741629162.232198}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["transformer", "tutorial", "all_2dir"]}, "version": 7, "at": 1741629162.232278}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741629162.232329}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "learning_rate"], "value": 0.00014}, "version": 9, "at": 1741629162.2371771}
+{"obj": {"type": "AssignInt", "path": ["parameters", "batch_size"], "value": 32}, "version": 10, "at": 1741629162.237262}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "dropout"], "value": 0.413}, "version": 11, "at": 1741629162.237313}
+{"obj": {"type": "AssignInt", "path": ["parameters", "d_model"], "value": 256}, "version": 12, "at": 1741629162.237351}
+{"obj": {"type": "AssignInt", "path": ["parameters", "d_hid"], "value": 569}, "version": 13, "at": 1741629162.2373881}
+{"obj": {"type": "AssignInt", "path": ["parameters", "nlayers"], "value": 4}, "version": 14, "at": 1741629162.2374232}
+{"obj": {"type": "AssignInt", "path": ["parameters", "nhead"], "value": 2}, "version": 15, "at": 1741629162.2374558}
+{"obj": {"type": "AssignInt", "path": ["parameters", "seed"], "value": 446}, "version": 16, "at": 1741629162.23749}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "all_2dir"}, "version": 17, "at": 1741629162.23753}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "placeholder"], "values": [{"value": 0.0, "step": null, "ts": 1741629190.060373}]}, "version": 18, "at": 1741629190.060398}

@@ -1,0 +1,221 @@
+data:
+  data_dir: datasets_new
+  datasets:
+    all_2dir:
+      stories_file: datasets_new/all_2dir.pkl
+      train_indices_file: datasets_new/train_indices_all_2dir.json
+      valid_indices_file: datasets_new/valid_indices_all_2dir.json
+      validb_indices_file: datasets_new/validB_indices_all_2dir.json
+      test_indices_file: datasets_new/test_indices_all_2dir.json
+    all_4dir:
+      stories_file: datasets_new/all_4dir.pkl
+      train_indices_file: datasets_new/train_indices_all_4dir.json
+      valid_indices_file: datasets_new/valid_indices_all_4dir.json
+      validb_indices_file: datasets_new/validB_indices_all_4dir.json
+      test_indices_file: datasets_new/test_indices_all_4dir.json
+  
+  names:
+  - Bob
+  - Alice
+  - Daniel
+  - Dorothy
+  - Paul
+  - Helen
+  - Jason
+  - Ruth
+  - Michael
+  - Linda
+  - Brian
+  - Donna
+  - Matthew
+  - Betty
+  - Charles
+  - Patricia
+  - James
+  - Susan
+  - George
+  - Sarah
+  - Richard
+  - Karen
+  - Christopher
+  - Nancy
+  - Steven
+  - Carol
+  - Kevin
+  - Anna
+  - Edward
+  - Lisa
+  max_vocab_size: 55
+  max_story_len: 450
+  max_question_len: 5
+  max_length: 150
+
+model:
+  model_dir: models
+
+training:
+  epochs: 10
+  batch_size: 32
+
+optimization:
+  n_trials: 4
+  epochs_per_trial: 5
+
+evaluation:
+  model_paths:
+    2directional:
+      transformer: 2directional_transformer_model_RUN12345_epoch_86.pt
+      lstm: 2directional_lstm_model_RUN12345_epoch_92.weights.h5
+    4directional:
+      transformer: 4directional_transformer_model_RUN67890_epoch_78.pt
+      lstm: 4directional_lstm_model_RUN67890_epoch_83.weights.h5
+
+neptune:
+  project_name: "yourprojectname"
+  api_token: "yourAPItoken"
+
+log_dir: logs
+
+hyperparameters:
+  transformer:
+    defaults:
+      2directional:
+        learning_rate: 0.00014
+        batch_size: 32
+        dropout: 0.413
+        d_model: 256
+        d_hid: 569
+        nlayers: 4
+        nhead: 2
+        seed: 446
+      4directional:
+        learning_rate: 0.00017
+        batch_size: 32
+        dropout: 0.565
+        d_model: 512
+        d_hid: 565
+        nlayers: 3
+        nhead: 4
+        seed: 215
+      all_2dir:
+        learning_rate: 0.00014
+        batch_size: 32
+        dropout: 0.413
+        d_model: 256
+        d_hid: 569
+        nlayers: 4
+        nhead: 2
+        seed: 446
+      all_4dir:
+        learning_rate: 0.00017
+        batch_size: 32
+        dropout: 0.565
+        d_model: 512
+        d_hid: 565
+        nlayers: 3
+        nhead: 4
+        seed: 215
+    ranges:
+    - name: learning_rate
+      type: range
+      bounds:
+      - 0.0001
+      - 0.0003
+    - name: batch_size
+      type: choice
+      values:
+      - 32
+      - 64
+      - 128
+    - name: dropout
+      type: range
+      bounds:
+      - 0.3
+      - 0.75
+    - name: d_hid
+      type: range
+      bounds:
+      - 512
+      - 768
+    - name: d_model
+      type: choice
+      values:
+      - 256
+      - 512
+      - 768
+    - name: nlayers
+      type: int
+      bounds:
+      - 1
+      - 4
+    - name: nhead
+      type: choice
+      values:
+      - 2
+      - 4
+      - 8
+  lstm:
+    defaults:
+      2directional:
+        learning_rate: 0.001
+        batch_size: 128
+        dropout: 0.39
+        l1_regul: 5.0e-05
+        l2_regul: 3.0e-05
+        hidden_layers: 74
+      4directional:
+        learning_rate: 8.0e-05
+        batch_size: 64
+        dropout: 0.38
+        l1_regul: 8.0e-05
+        l2_regul: 8.0e-05
+        hidden_layers: 134
+      all_2dir:
+        learning_rate: 0.001
+        batch_size: 128
+        dropout: 0.39
+        l1_regul: 5.0e-05
+        l2_regul: 3.0e-05
+        hidden_layers: 74
+      all_4dir:
+        learning_rate: 8.0e-05
+        batch_size: 64
+        dropout: 0.38
+        l1_regul: 8.0e-05
+        l2_regul: 8.0e-05
+        hidden_layers: 134
+    ranges:
+    - name: learning_rate
+      type: range
+      bounds:
+      - 1.0e-05
+      - 0.01
+      log_scale: true
+    - name: batch_size
+      type: choice
+      values:
+      - 32
+      - 64
+      - 128
+    - name: dropout
+      type: range
+      bounds:
+      - 0.35
+      - 0.65
+    - name: l1_regul
+      type: range
+      bounds:
+      - 1.0e-06
+      - 0.0001
+      log_scale: true
+    - name: l2_regul
+      type: range
+      bounds:
+      - 1.0e-06
+      - 0.0001
+      log_scale: true
+    - name: hidden_layers
+      type: int
+      bounds:
+      - 20
+      - 150

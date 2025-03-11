@@ -1,0 +1,15 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "all_4dir_lstm_tutorial"}, "version": 1, "at": 1741623437.9849558}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741623437.985468}
+{"obj": {"type": "AssignString", "path": ["monitoring", "a89b8695", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741623437.985625}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741623437.9857159}
+{"obj": {"type": "AssignString", "path": ["monitoring", "a89b8695", "pid"], "value": "35797"}, "version": 5, "at": 1741623437.9857888}
+{"obj": {"type": "AssignString", "path": ["monitoring", "a89b8695", "tid"], "value": "8071241408"}, "version": 6, "at": 1741623437.9858549}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["tutorial", "lstm", "all_4dir"]}, "version": 7, "at": 1741623437.986368}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741623437.986464}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "learning_rate"], "value": 8e-05}, "version": 9, "at": 1741623438.005276}
+{"obj": {"type": "AssignInt", "path": ["parameters", "batch_size"], "value": 64}, "version": 10, "at": 1741623438.007921}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "dropout"], "value": 0.38}, "version": 11, "at": 1741623438.008812}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "l1_regul"], "value": 8e-05}, "version": 12, "at": 1741623438.009127}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "l2_regul"], "value": 8e-05}, "version": 13, "at": 1741623438.009347}
+{"obj": {"type": "AssignInt", "path": ["parameters", "hidden_layers"], "value": 134}, "version": 14, "at": 1741623438.00952}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "all_4dir"}, "version": 15, "at": 1741623438.009737}

@@ -1,0 +1,30 @@
+2025-03-06 04:27:32,569 - story_understanding - INFO - Preparing data for all_4dir dataset...
+2025-03-06 04:27:33,224 - story_understanding - INFO - Starting experiment: all_4dir_transformer_experiment at 2025-03-06 04:27:33
+2025-03-06 04:27:33,224 - story_understanding - INFO - Framework: transformer
+2025-03-06 04:27:33,224 - story_understanding - INFO - Dataset info:
+2025-03-06 04:27:33,224 - story_understanding - INFO -   name: all_4dir
+2025-03-06 04:27:33,224 - story_understanding - INFO -   train_size: 214
+2025-03-06 04:27:33,224 - story_understanding - INFO -   val_size: 761
+2025-03-06 04:27:33,224 - story_understanding - INFO -   vocab_size: 52
+2025-03-06 04:27:33,224 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 04:27:33,224 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-06 04:27:33,224 - story_understanding - INFO -   batch_size: 32
+2025-03-06 04:27:33,224 - story_understanding - INFO -   dropout: 0.565
+2025-03-06 04:27:33,224 - story_understanding - INFO -   d_model: 512
+2025-03-06 04:27:33,224 - story_understanding - INFO -   d_hid: 565
+2025-03-06 04:27:33,224 - story_understanding - INFO -   nlayers: 3
+2025-03-06 04:27:33,224 - story_understanding - INFO -   nhead: 4
+2025-03-06 04:27:33,224 - story_understanding - INFO -   seed: 215
+2025-03-06 04:27:33,224 - story_understanding - INFO - ======================
+2025-03-06 04:27:33,225 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-06 04:27:34,217 - story_understanding - INFO - Creating model...
+2025-03-06 04:27:34,250 - story_understanding - INFO - Training model on all_4dir dataset...
+2025-03-06 04:35:28,859 - story_understanding - INFO - Best model saved to: models/training/4dir_transformer_ep02_dm512_nl3_do0.56_bs32_lr0.0002_acc0p5269.pt
+2025-03-06 04:35:32,077 - story_understanding - INFO - Completed experiment: all_4dir_transformer_training at 2025-03-06 04:35:32
+2025-03-06 04:35:32,077 - story_understanding - INFO - Best validation accuracy: 0.5269
+2025-03-06 04:35:32,077 - story_understanding - INFO - Final metrics:
+2025-03-06 04:35:32,077 - story_understanding - INFO -   train_loss (final): 1.2266
+2025-03-06 04:35:32,077 - story_understanding - INFO -   train_accuracy (final): 0.5514
+2025-03-06 04:35:32,077 - story_understanding - INFO -   val_loss (final): 0.9175
+2025-03-06 04:35:32,077 - story_understanding - INFO -   val_accuracy (final): 0.5112
+2025-03-06 04:35:32,077 - story_understanding - INFO - Done!

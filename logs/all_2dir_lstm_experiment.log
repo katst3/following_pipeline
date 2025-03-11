@@ -1,0 +1,72 @@
+2025-03-06 04:09:33,611 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 04:09:34,133 - story_understanding - INFO - Starting experiment: all_2dir_lstm_experiment at 2025-03-06 04:09:34
+2025-03-06 04:09:34,133 - story_understanding - INFO - Framework: lstm
+2025-03-06 04:09:34,133 - story_understanding - INFO - Dataset info:
+2025-03-06 04:09:34,133 - story_understanding - INFO -   name: all_2dir
+2025-03-06 04:09:34,134 - story_understanding - INFO -   train_size: 211
+2025-03-06 04:09:34,134 - story_understanding - INFO -   val_size: 744
+2025-03-06 04:09:34,134 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 04:09:34,134 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 04:09:34,134 - story_understanding - INFO -   learning_rate: 0.001
+2025-03-06 04:09:34,134 - story_understanding - INFO -   batch_size: 128
+2025-03-06 04:09:34,134 - story_understanding - INFO -   dropout: 0.39
+2025-03-06 04:09:34,134 - story_understanding - INFO -   l1_regul: 5e-05
+2025-03-06 04:09:34,134 - story_understanding - INFO -   l2_regul: 3e-05
+2025-03-06 04:09:34,134 - story_understanding - INFO -   hidden_layers: 74
+2025-03-06 04:09:34,134 - story_understanding - INFO - ======================
+2025-03-06 04:09:34,986 - story_understanding - INFO - Creating model...
+2025-03-06 04:09:35,556 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 04:11:20,881 - story_understanding - INFO - Best model saved to: models/training/2dir_lstm_ep09_hl74_do0.39_bs128_lr0.0010_acc0p5242.h5
+2025-03-06 04:11:21,721 - story_understanding - INFO - Completed experiment: all_2dir_lstm_training at 2025-03-06 04:11:21
+2025-03-06 04:11:21,722 - story_understanding - INFO - Best validation accuracy: 0.5242
+2025-03-06 04:11:21,722 - story_understanding - INFO - Final metrics:
+2025-03-06 04:11:21,722 - story_understanding - INFO -   train_loss (final): 0.6801
+2025-03-06 04:11:21,722 - story_understanding - INFO -   train_accuracy (final): 0.5782
+2025-03-06 04:11:21,722 - story_understanding - INFO -   val_loss (final): 0.6932
+2025-03-06 04:11:21,722 - story_understanding - INFO -   val_accuracy (final): 0.5242
+2025-03-06 04:11:21,722 - story_understanding - INFO - Done!
+2025-03-06 05:12:51,083 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 05:12:51,861 - story_understanding - INFO - Starting experiment: all_2dir_lstm_experiment at 2025-03-06 05:12:51
+2025-03-06 05:12:51,861 - story_understanding - INFO - Framework: lstm
+2025-03-06 05:12:51,861 - story_understanding - INFO - Dataset info:
+2025-03-06 05:12:51,862 - story_understanding - INFO -   name: all_2dir
+2025-03-06 05:12:51,862 - story_understanding - INFO -   train_size: 211
+2025-03-06 05:12:51,862 - story_understanding - INFO -   val_size: 744
+2025-03-06 05:12:51,862 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 05:12:51,862 - story_understanding - INFO -   validb_size: 328
+2025-03-06 05:12:51,862 - story_understanding - INFO -   test_size: 167
+2025-03-06 05:12:51,863 - story_understanding - INFO - Automatically found best model at: models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5
+2025-03-06 05:12:51,863 - story_understanding - INFO - Loading model from models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5...
+2025-03-06 05:12:52,365 - story_understanding - ERROR - Failed to load model: Cannot assign value to variable ' lstm/lstm_cell/kernel:0': Shape mismatch.The variable shape (64, 296), and the assigned value shape (64, 92) are incompatible.
+2025-03-06 05:28:23,597 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 05:28:24,380 - story_understanding - INFO - Starting experiment: all_2dir_lstm_experiment at 2025-03-06 05:28:24
+2025-03-06 05:28:24,380 - story_understanding - INFO - Framework: lstm
+2025-03-06 05:28:24,380 - story_understanding - INFO - Dataset info:
+2025-03-06 05:28:24,380 - story_understanding - INFO -   name: all_2dir
+2025-03-06 05:28:24,380 - story_understanding - INFO -   train_size: 211
+2025-03-06 05:28:24,380 - story_understanding - INFO -   val_size: 744
+2025-03-06 05:28:24,380 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 05:28:24,380 - story_understanding - INFO -   validb_size: 328
+2025-03-06 05:28:24,380 - story_understanding - INFO -   test_size: 167
+2025-03-06 05:28:24,383 - story_understanding - INFO - Automatically found best model at: models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5
+2025-03-06 05:28:24,383 - story_understanding - INFO - Loading model from models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5...
+2025-03-06 05:28:24,383 - story_understanding - INFO - Creating model with hyperparameters extracted from model filename
+2025-03-06 05:28:25,786 - story_understanding - INFO - Evaluating model on validation set...
+2025-03-06 05:28:28,157 - story_understanding - INFO - Evaluation results on validation set: Accuracy = 0.4866, Loss = 0.6934
+2025-03-06 05:28:28,157 - story_understanding - INFO - Done!
+2025-03-06 05:28:48,172 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 05:28:48,962 - story_understanding - INFO - Starting experiment: all_2dir_lstm_experiment at 2025-03-06 05:28:48
+2025-03-06 05:28:48,962 - story_understanding - INFO - Framework: lstm
+2025-03-06 05:28:48,962 - story_understanding - INFO - Dataset info:
+2025-03-06 05:28:48,962 - story_understanding - INFO -   name: all_2dir
+2025-03-06 05:28:48,962 - story_understanding - INFO -   train_size: 211
+2025-03-06 05:28:48,962 - story_understanding - INFO -   val_size: 744
+2025-03-06 05:28:48,962 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 05:28:48,962 - story_understanding - INFO -   validb_size: 328
+2025-03-06 05:28:48,962 - story_understanding - INFO -   test_size: 167
+2025-03-06 05:28:48,963 - story_understanding - INFO - Automatically found best model at: models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5
+2025-03-06 05:28:48,963 - story_understanding - INFO - Loading model from models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5...
+2025-03-06 05:28:48,963 - story_understanding - INFO - Creating model with hyperparameters extracted from model filename
+2025-03-06 05:28:50,228 - story_understanding - INFO - Evaluating model on test set...
+2025-03-06 05:28:51,857 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.4731, Loss = 0.6935
+2025-03-06 05:28:51,857 - story_understanding - INFO - Done!

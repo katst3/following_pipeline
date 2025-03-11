@@ -1,0 +1,410 @@
+2025-03-04 14:48:14,208 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 14:48:14,226 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 14:48:14
+2025-03-04 14:48:14,226 - story_understanding - INFO - Framework: pytorch
+2025-03-04 14:48:14,226 - story_understanding - INFO - Dataset info:
+2025-03-04 14:48:14,226 - story_understanding - INFO -   name: 2directional
+2025-03-04 14:48:14,226 - story_understanding - INFO -   train_size: 27
+2025-03-04 14:48:14,226 - story_understanding - INFO -   val_size: 1
+2025-03-04 14:48:14,226 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 14:48:14,226 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 14:48:14,227 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-04 14:48:14,227 - story_understanding - INFO -   batch_size: 32
+2025-03-04 14:48:14,227 - story_understanding - INFO -   dropout: 0.413
+2025-03-04 14:48:14,227 - story_understanding - INFO -   d_model: 256
+2025-03-04 14:48:14,227 - story_understanding - INFO -   d_hid: 569
+2025-03-04 14:48:14,227 - story_understanding - INFO -   nlayers: 4
+2025-03-04 14:48:14,227 - story_understanding - INFO -   nhead: 2
+2025-03-04 14:48:14,227 - story_understanding - INFO -   seed: 446
+2025-03-04 14:48:14,227 - story_understanding - INFO - ======================
+2025-03-04 14:48:14,227 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-04 14:48:15,174 - story_understanding - INFO - Creating model...
+2025-03-04 14:48:15,200 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-04 14:48:55,512 - story_understanding - INFO - Completed experiment: 2directional_pytorch_training at 2025-03-04 14:48:55
+2025-03-04 14:48:55,512 - story_understanding - INFO - Best validation accuracy: 1.0000
+2025-03-04 14:48:55,513 - story_understanding - INFO - Final metrics:
+2025-03-04 14:48:55,513 - story_understanding - INFO -   train_loss (final): 0.0363
+2025-03-04 14:48:55,513 - story_understanding - INFO -   train_accuracy (final): 1.0000
+2025-03-04 14:48:55,513 - story_understanding - INFO -   val_loss (final): 0.0000
+2025-03-04 14:48:55,513 - story_understanding - INFO -   val_accuracy (final): 1.0000
+2025-03-04 14:48:55,513 - story_understanding - INFO - Done!
+2025-03-04 14:50:51,679 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 14:51:06,480 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 14:53:15,375 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 14:53:15,402 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 14:53:15
+2025-03-04 14:53:15,402 - story_understanding - INFO - Framework: pytorch
+2025-03-04 14:53:15,402 - story_understanding - INFO - Dataset info:
+2025-03-04 14:53:15,402 - story_understanding - INFO -   name: 2directional
+2025-03-04 14:53:15,402 - story_understanding - INFO -   train_size: 27
+2025-03-04 14:53:15,402 - story_understanding - INFO -   val_size: 1
+2025-03-04 14:53:15,402 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 14:53:15,402 - story_understanding - INFO -   validb_size: 11
+2025-03-04 14:53:15,402 - story_understanding - INFO -   test_size: 13
+2025-03-04 14:53:15,403 - story_understanding - INFO - Loading model from models/models/2directional_pt_model_best.pt...
+2025-03-04 14:53:32,399 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 14:53:32,426 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 14:53:32
+2025-03-04 14:53:32,427 - story_understanding - INFO - Framework: pytorch
+2025-03-04 14:53:32,427 - story_understanding - INFO - Dataset info:
+2025-03-04 14:53:32,427 - story_understanding - INFO -   name: 2directional
+2025-03-04 14:53:32,427 - story_understanding - INFO -   train_size: 27
+2025-03-04 14:53:32,427 - story_understanding - INFO -   val_size: 1
+2025-03-04 14:53:32,427 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 14:53:32,427 - story_understanding - INFO -   validb_size: 11
+2025-03-04 14:53:32,427 - story_understanding - INFO -   test_size: 13
+2025-03-04 14:53:32,427 - story_understanding - INFO - Loading model from models/models/2directional_pt_model_best.pt...
+2025-03-04 14:56:17,068 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 14:56:17,100 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 14:56:17
+2025-03-04 14:56:17,100 - story_understanding - INFO - Framework: pytorch
+2025-03-04 14:56:17,100 - story_understanding - INFO - Dataset info:
+2025-03-04 14:56:17,100 - story_understanding - INFO -   name: 2directional
+2025-03-04 14:56:17,100 - story_understanding - INFO -   train_size: 27
+2025-03-04 14:56:17,100 - story_understanding - INFO -   val_size: 1
+2025-03-04 14:56:17,100 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 14:56:17,100 - story_understanding - INFO -   validb_size: 11
+2025-03-04 14:56:17,100 - story_understanding - INFO -   test_size: 13
+2025-03-04 14:56:17,100 - story_understanding - INFO - Loading model from models/2directional_pt_model_best.pt...
+2025-03-04 16:38:43,495 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 16:38:43,523 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 16:38:43
+2025-03-04 16:38:43,523 - story_understanding - INFO - Framework: pytorch
+2025-03-04 16:38:43,523 - story_understanding - INFO - Dataset info:
+2025-03-04 16:38:43,523 - story_understanding - INFO -   name: 2directional
+2025-03-04 16:38:43,523 - story_understanding - INFO -   train_size: 27
+2025-03-04 16:38:43,523 - story_understanding - INFO -   val_size: 1
+2025-03-04 16:38:43,523 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 16:38:43,523 - story_understanding - INFO -   validb_size: 11
+2025-03-04 16:38:43,523 - story_understanding - INFO -   test_size: 13
+2025-03-04 16:38:43,523 - story_understanding - INFO - Loading model from models/2directional_pt_model_best.pt...
+2025-03-04 16:52:44,177 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 16:52:44,206 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 16:52:44
+2025-03-04 16:52:44,206 - story_understanding - INFO - Framework: pytorch
+2025-03-04 16:52:44,206 - story_understanding - INFO - Dataset info:
+2025-03-04 16:52:44,207 - story_understanding - INFO -   name: 2directional
+2025-03-04 16:52:44,207 - story_understanding - INFO -   train_size: 27
+2025-03-04 16:52:44,207 - story_understanding - INFO -   val_size: 1
+2025-03-04 16:52:44,207 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 16:52:44,207 - story_understanding - INFO -   validb_size: 11
+2025-03-04 16:52:44,207 - story_understanding - INFO -   test_size: 13
+2025-03-04 16:52:44,207 - story_understanding - INFO - Loading model from models/2directional_pt_model_best.pt...
+2025-03-04 18:16:55,706 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:16:55,757 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 18:16:55
+2025-03-04 18:16:55,757 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:16:55,757 - story_understanding - INFO - Dataset info:
+2025-03-04 18:16:55,757 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:16:55,757 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:16:55,757 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:16:55,758 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 18:16:55,758 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:16:55,758 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:16:55,758 - story_understanding - ERROR - Model file not found at models/2directional_pt_model_best.pt
+2025-03-04 18:26:58,136 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:26:58,186 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 18:26:58
+2025-03-04 18:26:58,186 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:26:58,186 - story_understanding - INFO - Dataset info:
+2025-03-04 18:26:58,186 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:26:58,186 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:26:58,186 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:26:58,186 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 18:26:58,186 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:26:58,186 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:26:58,197 - story_understanding - INFO - Loading model from models/4directional_pt_model_best.pt...
+2025-03-04 18:34:41,247 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:34:41,286 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 18:34:41
+2025-03-04 18:34:41,286 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:34:41,286 - story_understanding - INFO - Dataset info:
+2025-03-04 18:34:41,286 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:34:41,286 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:34:41,286 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:34:41,286 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 18:34:41,287 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:34:41,287 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-04 18:34:41,287 - story_understanding - INFO -   batch_size: 32
+2025-03-04 18:34:41,287 - story_understanding - INFO -   dropout: 0.413
+2025-03-04 18:34:41,287 - story_understanding - INFO -   d_model: 256
+2025-03-04 18:34:41,287 - story_understanding - INFO -   d_hid: 569
+2025-03-04 18:34:41,287 - story_understanding - INFO -   nlayers: 4
+2025-03-04 18:34:41,287 - story_understanding - INFO -   nhead: 2
+2025-03-04 18:34:41,287 - story_understanding - INFO -   seed: 446
+2025-03-04 18:34:41,287 - story_understanding - INFO - ======================
+2025-03-04 18:34:41,287 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-04 18:34:42,880 - story_understanding - INFO - Creating model...
+2025-03-04 18:34:42,907 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-04 18:37:09,244 - story_understanding - INFO - Best model saved to: models/2directional_pt_model_best.pt
+2025-03-04 18:37:09,452 - story_understanding - INFO - Completed experiment: 2directional_pytorch_training at 2025-03-04 18:37:09
+2025-03-04 18:37:09,453 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-04 18:37:09,453 - story_understanding - INFO - Final metrics:
+2025-03-04 18:37:09,453 - story_understanding - INFO -   train_loss (final): 0.3028
+2025-03-04 18:37:09,453 - story_understanding - INFO -   train_accuracy (final): 0.8800
+2025-03-04 18:37:09,453 - story_understanding - INFO -   val_loss (final): 2.5270
+2025-03-04 18:37:09,453 - story_understanding - INFO -   val_accuracy (final): 0.5000
+2025-03-04 18:37:09,453 - story_understanding - INFO - Done!
+2025-03-04 18:43:59,832 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:43:59,879 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 18:43:59
+2025-03-04 18:43:59,879 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:43:59,879 - story_understanding - INFO - Dataset info:
+2025-03-04 18:43:59,879 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:43:59,879 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:43:59,879 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:43:59,879 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 18:43:59,879 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:43:59,879 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:43:59,879 - story_understanding - INFO - Loading model from models/2directional_pt_model_best.pt...
+2025-03-04 18:44:01,418 - story_understanding - INFO - Evaluating model on test set...
+2025-03-04 18:44:01,878 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.5000, Loss = 0.7833
+2025-03-04 18:44:01,878 - story_understanding - INFO - Done!
+2025-03-04 19:09:21,081 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 19:09:21,127 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-04 19:09:21
+2025-03-04 19:09:21,127 - story_understanding - INFO - Framework: pytorch
+2025-03-04 19:09:21,127 - story_understanding - INFO - Dataset info:
+2025-03-04 19:09:21,127 - story_understanding - INFO -   name: 2directional
+2025-03-04 19:09:21,127 - story_understanding - INFO -   train_size: 100
+2025-03-04 19:09:21,127 - story_understanding - INFO -   val_size: 20
+2025-03-04 19:09:21,127 - story_understanding - INFO -   vocab_size: 48
+2025-03-04 19:09:21,127 - story_understanding - INFO - Starting hyperparameter optimization for 2directional dataset...
+2025-03-04 19:09:21,127 - story_understanding - INFO - Using dataset-specific seed: 446
+2025-03-04 19:25:47,383 - story_understanding - INFO - Best hyperparameters for 2directional: {'learning_rate': 0.0002707150988280773, 'batch_size': 128, 'dropout': 0.6769926657434553, 'd_hid': 512, 'd_model': 256, 'nlayers': 3, 'nhead': 2}
+2025-03-04 19:25:47,384 - story_understanding - INFO - Done!
+2025-03-05 12:44:53,094 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 12:44:53,138 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 12:44:53
+2025-03-05 12:44:53,138 - story_understanding - INFO - Framework: pytorch
+2025-03-05 12:44:53,138 - story_understanding - INFO - Dataset info:
+2025-03-05 12:44:53,138 - story_understanding - INFO -   name: 2directional
+2025-03-05 12:44:53,138 - story_understanding - INFO -   train_size: 100
+2025-03-05 12:44:53,138 - story_understanding - INFO -   val_size: 20
+2025-03-05 12:44:53,138 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 12:44:53,138 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 12:44:53,138 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 12:44:53,138 - story_understanding - INFO -   batch_size: 32
+2025-03-05 12:44:53,138 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 12:44:53,138 - story_understanding - INFO -   d_model: 256
+2025-03-05 12:44:53,138 - story_understanding - INFO -   d_hid: 569
+2025-03-05 12:44:53,138 - story_understanding - INFO -   nlayers: 4
+2025-03-05 12:44:53,138 - story_understanding - INFO -   nhead: 2
+2025-03-05 12:44:53,138 - story_understanding - INFO -   seed: 446
+2025-03-05 12:44:53,138 - story_understanding - INFO - ======================
+2025-03-05 12:44:53,138 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 12:44:54,389 - story_understanding - INFO - Creating model...
+2025-03-05 12:44:54,417 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 12:56:23,436 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 12:56:23,484 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 12:56:23
+2025-03-05 12:56:23,485 - story_understanding - INFO - Framework: pytorch
+2025-03-05 12:56:23,485 - story_understanding - INFO - Dataset info:
+2025-03-05 12:56:23,485 - story_understanding - INFO -   name: 2directional
+2025-03-05 12:56:23,485 - story_understanding - INFO -   train_size: 100
+2025-03-05 12:56:23,485 - story_understanding - INFO -   val_size: 20
+2025-03-05 12:56:23,485 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 12:56:23,485 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 12:56:23,485 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 12:56:23,485 - story_understanding - INFO -   batch_size: 32
+2025-03-05 12:56:23,485 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 12:56:23,485 - story_understanding - INFO -   d_model: 256
+2025-03-05 12:56:23,485 - story_understanding - INFO -   d_hid: 569
+2025-03-05 12:56:23,485 - story_understanding - INFO -   nlayers: 4
+2025-03-05 12:56:23,486 - story_understanding - INFO -   nhead: 2
+2025-03-05 12:56:23,486 - story_understanding - INFO -   seed: 446
+2025-03-05 12:56:23,486 - story_understanding - INFO - ======================
+2025-03-05 12:56:23,487 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 12:56:24,705 - story_understanding - INFO - Creating model...
+2025-03-05 12:56:24,732 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 12:58:56,866 - story_understanding - INFO - Best model saved to: models/2directional_pt_model_best.pt
+2025-03-05 12:58:57,074 - story_understanding - INFO - Completed experiment: 2directional_pytorch_training at 2025-03-05 12:58:57
+2025-03-05 12:58:57,074 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-05 12:58:57,074 - story_understanding - INFO - Final metrics:
+2025-03-05 12:58:57,074 - story_understanding - INFO -   train_loss (final): 0.3028
+2025-03-05 12:58:57,074 - story_understanding - INFO -   train_accuracy (final): 0.8800
+2025-03-05 12:58:57,074 - story_understanding - INFO -   val_loss (final): 2.5270
+2025-03-05 12:58:57,074 - story_understanding - INFO -   val_accuracy (final): 0.5000
+2025-03-05 12:58:57,074 - story_understanding - INFO - Done!
+2025-03-05 13:04:00,299 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 13:04:00,341 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 13:04:00
+2025-03-05 13:04:00,341 - story_understanding - INFO - Framework: pytorch
+2025-03-05 13:04:00,341 - story_understanding - INFO - Dataset info:
+2025-03-05 13:04:00,341 - story_understanding - INFO -   name: 2directional
+2025-03-05 13:04:00,341 - story_understanding - INFO -   train_size: 100
+2025-03-05 13:04:00,341 - story_understanding - INFO -   val_size: 20
+2025-03-05 13:04:00,341 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 13:04:00,341 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 13:04:00,341 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 13:04:00,341 - story_understanding - INFO -   batch_size: 32
+2025-03-05 13:04:00,341 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 13:04:00,341 - story_understanding - INFO -   d_model: 256
+2025-03-05 13:04:00,341 - story_understanding - INFO -   d_hid: 569
+2025-03-05 13:04:00,341 - story_understanding - INFO -   nlayers: 4
+2025-03-05 13:04:00,341 - story_understanding - INFO -   nhead: 2
+2025-03-05 13:04:00,341 - story_understanding - INFO -   seed: 446
+2025-03-05 13:04:00,341 - story_understanding - INFO - ======================
+2025-03-05 13:04:00,343 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 13:04:01,805 - story_understanding - INFO - Creating model...
+2025-03-05 13:04:01,850 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 13:06:38,744 - story_understanding - INFO - Best model saved to: models/2directional_pt_model_best.pt
+2025-03-05 13:06:38,915 - story_understanding - INFO - Completed experiment: 2directional_pytorch_training at 2025-03-05 13:06:38
+2025-03-05 13:06:38,915 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-05 13:06:38,915 - story_understanding - INFO - Final metrics:
+2025-03-05 13:06:38,915 - story_understanding - INFO -   train_loss (final): 0.3028
+2025-03-05 13:06:38,915 - story_understanding - INFO -   train_accuracy (final): 0.8800
+2025-03-05 13:06:38,915 - story_understanding - INFO -   val_loss (final): 2.5270
+2025-03-05 13:06:38,915 - story_understanding - INFO -   val_accuracy (final): 0.5000
+2025-03-05 13:06:38,916 - story_understanding - INFO - Done!
+2025-03-05 13:22:22,766 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 13:22:22,815 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 13:22:22
+2025-03-05 13:22:22,816 - story_understanding - INFO - Framework: pytorch
+2025-03-05 13:22:22,816 - story_understanding - INFO - Dataset info:
+2025-03-05 13:22:22,816 - story_understanding - INFO -   name: 2directional
+2025-03-05 13:22:22,816 - story_understanding - INFO -   train_size: 100
+2025-03-05 13:22:22,816 - story_understanding - INFO -   val_size: 20
+2025-03-05 13:22:22,816 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 13:22:22,816 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 13:22:22,816 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 13:22:22,816 - story_understanding - INFO -   batch_size: 32
+2025-03-05 13:22:22,816 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 13:22:22,816 - story_understanding - INFO -   d_model: 256
+2025-03-05 13:22:22,816 - story_understanding - INFO -   d_hid: 569
+2025-03-05 13:22:22,816 - story_understanding - INFO -   nlayers: 4
+2025-03-05 13:22:22,816 - story_understanding - INFO -   nhead: 2
+2025-03-05 13:22:22,816 - story_understanding - INFO -   seed: 446
+2025-03-05 13:22:22,816 - story_understanding - INFO - ======================
+2025-03-05 13:22:22,816 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 13:22:24,092 - story_understanding - INFO - Creating model...
+2025-03-05 13:22:24,122 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 13:33:57,237 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 13:33:57,280 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 13:33:57
+2025-03-05 13:33:57,280 - story_understanding - INFO - Framework: pytorch
+2025-03-05 13:33:57,280 - story_understanding - INFO - Dataset info:
+2025-03-05 13:33:57,280 - story_understanding - INFO -   name: 2directional
+2025-03-05 13:33:57,280 - story_understanding - INFO -   train_size: 100
+2025-03-05 13:33:57,280 - story_understanding - INFO -   val_size: 20
+2025-03-05 13:33:57,280 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 13:33:57,280 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 13:33:57,281 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 13:33:57,281 - story_understanding - INFO -   batch_size: 32
+2025-03-05 13:33:57,281 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 13:33:57,281 - story_understanding - INFO -   d_model: 256
+2025-03-05 13:33:57,281 - story_understanding - INFO -   d_hid: 569
+2025-03-05 13:33:57,281 - story_understanding - INFO -   nlayers: 4
+2025-03-05 13:33:57,281 - story_understanding - INFO -   nhead: 2
+2025-03-05 13:33:57,281 - story_understanding - INFO -   seed: 446
+2025-03-05 13:33:57,281 - story_understanding - INFO - ======================
+2025-03-05 13:33:57,281 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 13:33:58,520 - story_understanding - INFO - Creating model...
+2025-03-05 13:33:58,536 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 14:13:25,300 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 14:13:25,344 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 14:13:25
+2025-03-05 14:13:25,344 - story_understanding - INFO - Framework: pytorch
+2025-03-05 14:13:25,344 - story_understanding - INFO - Dataset info:
+2025-03-05 14:13:25,344 - story_understanding - INFO -   name: 2directional
+2025-03-05 14:13:25,344 - story_understanding - INFO -   train_size: 100
+2025-03-05 14:13:25,344 - story_understanding - INFO -   val_size: 20
+2025-03-05 14:13:25,345 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 14:13:25,345 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 14:13:25,345 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 14:13:25,345 - story_understanding - INFO -   batch_size: 32
+2025-03-05 14:13:25,345 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 14:13:25,345 - story_understanding - INFO -   d_model: 256
+2025-03-05 14:13:25,345 - story_understanding - INFO -   d_hid: 569
+2025-03-05 14:13:25,345 - story_understanding - INFO -   nlayers: 4
+2025-03-05 14:13:25,345 - story_understanding - INFO -   nhead: 2
+2025-03-05 14:13:25,345 - story_understanding - INFO -   seed: 446
+2025-03-05 14:13:25,345 - story_understanding - INFO - ======================
+2025-03-05 14:13:25,345 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 14:13:26,484 - story_understanding - INFO - Creating model...
+2025-03-05 14:13:26,509 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 14:41:24,053 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 14:41:24,097 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 14:41:24
+2025-03-05 14:41:24,097 - story_understanding - INFO - Framework: pytorch
+2025-03-05 14:41:24,097 - story_understanding - INFO - Dataset info:
+2025-03-05 14:41:24,097 - story_understanding - INFO -   name: 2directional
+2025-03-05 14:41:24,097 - story_understanding - INFO -   train_size: 100
+2025-03-05 14:41:24,097 - story_understanding - INFO -   val_size: 20
+2025-03-05 14:41:24,097 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 14:41:24,097 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 14:41:24,097 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 14:41:24,097 - story_understanding - INFO -   batch_size: 32
+2025-03-05 14:41:24,097 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 14:41:24,097 - story_understanding - INFO -   d_model: 256
+2025-03-05 14:41:24,097 - story_understanding - INFO -   d_hid: 569
+2025-03-05 14:41:24,097 - story_understanding - INFO -   nlayers: 4
+2025-03-05 14:41:24,097 - story_understanding - INFO -   nhead: 2
+2025-03-05 14:41:24,097 - story_understanding - INFO -   seed: 446
+2025-03-05 14:41:24,097 - story_understanding - INFO - ======================
+2025-03-05 14:41:24,097 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 14:41:25,005 - story_understanding - INFO - Creating model...
+2025-03-05 14:41:25,030 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 14:43:55,670 - story_understanding - INFO - Best model saved to: models/training/2directional_pt_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 14:44:01,100 - story_understanding - INFO - Completed experiment: 2directional_pytorch_training at 2025-03-05 14:44:01
+2025-03-05 14:44:01,100 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 14:44:01,101 - story_understanding - INFO - Final metrics:
+2025-03-05 14:44:01,101 - story_understanding - INFO -   train_loss (final): 0.3655
+2025-03-05 14:44:01,101 - story_understanding - INFO -   train_accuracy (final): 0.8800
+2025-03-05 14:44:01,101 - story_understanding - INFO -   val_loss (final): 2.9563
+2025-03-05 14:44:01,101 - story_understanding - INFO -   val_accuracy (final): 0.5000
+2025-03-05 14:44:01,101 - story_understanding - INFO - Done!
+2025-03-05 15:10:31,600 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 15:10:31,642 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 15:10:31
+2025-03-05 15:10:31,642 - story_understanding - INFO - Framework: pytorch
+2025-03-05 15:10:31,643 - story_understanding - INFO - Dataset info:
+2025-03-05 15:10:31,643 - story_understanding - INFO -   name: 2directional
+2025-03-05 15:10:31,643 - story_understanding - INFO -   train_size: 100
+2025-03-05 15:10:31,643 - story_understanding - INFO -   val_size: 20
+2025-03-05 15:10:31,643 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 15:10:31,643 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 15:10:31,643 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 15:10:31,643 - story_understanding - INFO -   batch_size: 32
+2025-03-05 15:10:31,643 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 15:10:31,643 - story_understanding - INFO -   d_model: 256
+2025-03-05 15:10:31,643 - story_understanding - INFO -   d_hid: 569
+2025-03-05 15:10:31,643 - story_understanding - INFO -   nlayers: 4
+2025-03-05 15:10:31,643 - story_understanding - INFO -   nhead: 2
+2025-03-05 15:10:31,643 - story_understanding - INFO -   seed: 446
+2025-03-05 15:10:31,643 - story_understanding - INFO - ======================
+2025-03-05 15:10:31,643 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 15:10:32,701 - story_understanding - INFO - Creating model...
+2025-03-05 15:10:32,741 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 15:14:12,824 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 15:14:12,864 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 15:14:12
+2025-03-05 15:14:12,864 - story_understanding - INFO - Framework: pytorch
+2025-03-05 15:14:12,864 - story_understanding - INFO - Dataset info:
+2025-03-05 15:14:12,864 - story_understanding - INFO -   name: 2directional
+2025-03-05 15:14:12,864 - story_understanding - INFO -   train_size: 100
+2025-03-05 15:14:12,864 - story_understanding - INFO -   val_size: 20
+2025-03-05 15:14:12,864 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 15:14:12,864 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 15:14:12,864 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 15:14:12,864 - story_understanding - INFO -   batch_size: 32
+2025-03-05 15:14:12,864 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 15:14:12,864 - story_understanding - INFO -   d_model: 256
+2025-03-05 15:14:12,864 - story_understanding - INFO -   d_hid: 569
+2025-03-05 15:14:12,864 - story_understanding - INFO -   nlayers: 4
+2025-03-05 15:14:12,864 - story_understanding - INFO -   nhead: 2
+2025-03-05 15:14:12,864 - story_understanding - INFO -   seed: 446
+2025-03-05 15:14:12,864 - story_understanding - INFO - ======================
+2025-03-05 15:14:12,864 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 15:14:13,830 - story_understanding - INFO - Creating model...
+2025-03-05 15:14:13,845 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 15:15:47,694 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 15:15:47,739 - story_understanding - INFO - Starting experiment: 2directional_pytorch_experiment at 2025-03-05 15:15:47
+2025-03-05 15:15:47,739 - story_understanding - INFO - Framework: pytorch
+2025-03-05 15:15:47,739 - story_understanding - INFO - Dataset info:
+2025-03-05 15:15:47,739 - story_understanding - INFO -   name: 2directional
+2025-03-05 15:15:47,739 - story_understanding - INFO -   train_size: 100
+2025-03-05 15:15:47,739 - story_understanding - INFO -   val_size: 20
+2025-03-05 15:15:47,739 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 15:15:47,739 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 15:15:47,739 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 15:15:47,739 - story_understanding - INFO -   batch_size: 32
+2025-03-05 15:15:47,739 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 15:15:47,739 - story_understanding - INFO -   d_model: 256
+2025-03-05 15:15:47,739 - story_understanding - INFO -   d_hid: 569
+2025-03-05 15:15:47,739 - story_understanding - INFO -   nlayers: 4
+2025-03-05 15:15:47,739 - story_understanding - INFO -   nhead: 2
+2025-03-05 15:15:47,739 - story_understanding - INFO -   seed: 446
+2025-03-05 15:15:47,739 - story_understanding - INFO - ======================
+2025-03-05 15:15:47,740 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 15:15:48,608 - story_understanding - INFO - Creating model...
+2025-03-05 15:15:48,621 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 15:18:54,762 - story_understanding - INFO - Best model saved to: models/training/2directional_pt_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 15:19:00,068 - story_understanding - INFO - Completed experiment: 2directional_pytorch_training at 2025-03-05 15:19:00
+2025-03-05 15:19:00,068 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 15:19:00,068 - story_understanding - INFO - Final metrics:
+2025-03-05 15:19:00,068 - story_understanding - INFO -   train_loss (final): 0.3655
+2025-03-05 15:19:00,068 - story_understanding - INFO -   train_accuracy (final): 0.8800
+2025-03-05 15:19:00,069 - story_understanding - INFO -   val_loss (final): 2.9563
+2025-03-05 15:19:00,069 - story_understanding - INFO -   val_accuracy (final): 0.5000
+2025-03-05 15:19:00,069 - story_understanding - INFO - Done!

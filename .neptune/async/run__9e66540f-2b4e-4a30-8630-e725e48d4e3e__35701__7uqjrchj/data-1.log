@@ -1,0 +1,8 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "2dir_transformer_trial_1"}, "version": 1, "at": 1741623341.1506329}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741623341.150887}
+{"obj": {"type": "AssignString", "path": ["monitoring", "da38038e", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741623341.150956}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741623341.151003}
+{"obj": {"type": "AssignString", "path": ["monitoring", "da38038e", "pid"], "value": "35701"}, "version": 5, "at": 1741623341.151045}
+{"obj": {"type": "AssignString", "path": ["monitoring", "da38038e", "tid"], "value": "8071241408"}, "version": 6, "at": 1741623341.151084}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["optimization", "transformer", "trial_1", "2dir"]}, "version": 7, "at": 1741623341.151165}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741623341.1512132}

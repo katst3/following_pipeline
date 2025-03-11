@@ -1,0 +1,55 @@
+2025-03-04 18:54:40,834 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:54:40,868 - story_understanding - INFO - Starting experiment: 2directional_tensorflow_experiment at 2025-03-04 18:54:40
+2025-03-04 18:54:40,868 - story_understanding - INFO - Framework: tensorflow
+2025-03-04 18:54:40,868 - story_understanding - INFO - Dataset info:
+2025-03-04 18:54:40,868 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:54:40,868 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:54:40,868 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:54:40,868 - story_understanding - INFO -   vocab_size: 55
+2025-03-04 18:54:40,868 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:54:40,869 - story_understanding - INFO -   learning_rate: 0.001
+2025-03-04 18:54:40,869 - story_understanding - INFO -   batch_size: 128
+2025-03-04 18:54:40,869 - story_understanding - INFO -   dropout: 0.39
+2025-03-04 18:54:40,869 - story_understanding - INFO -   l1_regul: 5e-05
+2025-03-04 18:54:40,869 - story_understanding - INFO -   l2_regul: 3e-05
+2025-03-04 18:54:40,869 - story_understanding - INFO -   hidden_layers: 74
+2025-03-04 18:54:40,869 - story_understanding - INFO - ======================
+2025-03-04 18:54:41,933 - story_understanding - INFO - Creating model...
+2025-03-04 18:54:42,405 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-04 18:55:21,652 - story_understanding - INFO - Best model saved to: models/2directional_tf_model_best.h5
+2025-03-04 18:55:22,259 - story_understanding - INFO - Completed experiment: 2directional_tensorflow_training at 2025-03-04 18:55:22
+2025-03-04 18:55:22,259 - story_understanding - INFO - Best validation accuracy: 0.8500
+2025-03-04 18:55:22,259 - story_understanding - INFO - Final metrics:
+2025-03-04 18:55:22,260 - story_understanding - INFO -   loss (final): 0.0644
+2025-03-04 18:55:22,260 - story_understanding - INFO -   accuracy (final): 0.9900
+2025-03-04 18:55:22,260 - story_understanding - INFO -   val_loss (final): 1.1829
+2025-03-04 18:55:22,260 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-04 18:55:22,260 - story_understanding - INFO - Done!
+2025-03-04 18:56:25,818 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:56:25,858 - story_understanding - INFO - Starting experiment: 2directional_tensorflow_experiment at 2025-03-04 18:56:25
+2025-03-04 18:56:25,858 - story_understanding - INFO - Framework: tensorflow
+2025-03-04 18:56:25,858 - story_understanding - INFO - Dataset info:
+2025-03-04 18:56:25,858 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:56:25,858 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:56:25,858 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:56:25,858 - story_understanding - INFO -   vocab_size: 55
+2025-03-04 18:56:25,858 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:56:25,858 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:56:25,858 - story_understanding - INFO - Loading model from models/2directional_tf_model_best.h5...
+2025-03-04 18:56:27,600 - story_understanding - INFO - Evaluating model on test set...
+2025-03-04 18:56:28,997 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.6000, Loss = 0.6864
+2025-03-04 18:56:28,997 - story_understanding - INFO - Done!
+2025-03-04 18:56:57,651 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-04 18:56:57,690 - story_understanding - INFO - Starting experiment: 2directional_tensorflow_experiment at 2025-03-04 18:56:57
+2025-03-04 18:56:57,690 - story_understanding - INFO - Framework: tensorflow
+2025-03-04 18:56:57,690 - story_understanding - INFO - Dataset info:
+2025-03-04 18:56:57,690 - story_understanding - INFO -   name: 2directional
+2025-03-04 18:56:57,690 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:56:57,690 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:56:57,691 - story_understanding - INFO -   vocab_size: 55
+2025-03-04 18:56:57,691 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:56:57,691 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:56:57,691 - story_understanding - INFO - Loading model from models/2directional_tf_model_best.h5...
+2025-03-04 18:56:58,950 - story_understanding - INFO - Evaluating model on validation B set...
+2025-03-04 18:57:00,350 - story_understanding - INFO - Evaluation results on validation B set: Accuracy = 0.5000, Loss = 0.6892
+2025-03-04 18:57:00,350 - story_understanding - INFO - Done!

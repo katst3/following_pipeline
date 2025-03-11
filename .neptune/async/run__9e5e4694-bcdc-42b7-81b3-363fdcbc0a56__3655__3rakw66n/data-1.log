@@ -1,0 +1,17 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "2dir_transformer_optimization"}, "version": 1, "at": 1741277482.706934}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741277482.707176}
+{"obj": {"type": "AssignString", "path": ["monitoring", "d4a15808", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741277482.707242}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741277482.707289}
+{"obj": {"type": "AssignString", "path": ["monitoring", "d4a15808", "pid"], "value": "3655"}, "version": 5, "at": 1741277482.707333}
+{"obj": {"type": "AssignString", "path": ["monitoring", "d4a15808", "tid"], "value": "7929601728"}, "version": 6, "at": 1741277482.7073762}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["transformer", "optimization", "2dir"]}, "version": 7, "at": 1741277482.707479}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741277482.707523}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "2dir"}, "version": 9, "at": 1741277482.711396}
+{"obj": {"type": "AssignString", "path": ["parameters", "framework"], "value": "transformer"}, "version": 10, "at": 1741277482.711709}
+{"obj": {"type": "AssignBool", "path": ["parameters", "optimization"], "value": true}, "version": 11, "at": 1741277482.711785}
+{"obj": {"type": "LogFloats", "path": ["metrics", "train_loss"], "values": [{"value": 2.675806777737152, "step": 0, "ts": 1741277495.5646799}]}, "version": 12, "at": 1741277495.564855}
+{"obj": {"type": "LogFloats", "path": ["metrics", "train_accuracy"], "values": [{"value": 0.5071090047393365, "step": 0, "ts": 1741277495.565421}]}, "version": 13, "at": 1741277495.565442}
+{"obj": {"type": "LogFloats", "path": ["metrics", "val_loss"], "values": [{"value": 1.8670232686945187, "step": 0, "ts": 1741277495.5666938}]}, "version": 14, "at": 1741277495.567159}
+{"obj": {"type": "LogFloats", "path": ["metrics", "val_accuracy"], "values": [{"value": 0.49193548387096775, "step": 0, "ts": 1741277495.5674481}]}, "version": 15, "at": 1741277495.567511}
+{"obj": {"type": "LogFloats", "path": ["training_accuracy", "total"], "values": [{"value": 0.5071090047393365, "step": 0, "ts": 1741277495.5678341}]}, "version": 16, "at": 1741277495.567861}
+{"obj": {"type": "LogFloats", "path": ["validation_accuracy", "total"], "values": [{"value": 0.49193548387096775, "step": 0, "ts": 1741277495.568137}]}, "version": 17, "at": 1741277495.568156}

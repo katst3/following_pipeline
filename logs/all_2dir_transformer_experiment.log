@@ -1,0 +1,211 @@
+2025-03-06 00:40:20,974 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 00:42:27,781 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 00:42:28,003 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 00:42:28
+2025-03-06 00:42:28,003 - story_understanding - INFO - Framework: transformer
+2025-03-06 00:42:28,003 - story_understanding - INFO - Dataset info:
+2025-03-06 00:42:28,003 - story_understanding - INFO -   name: all_2dir
+2025-03-06 00:42:28,003 - story_understanding - INFO -   train_size: 606
+2025-03-06 00:42:28,003 - story_understanding - INFO -   val_size: 242
+2025-03-06 00:42:28,003 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 00:45:35,376 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 00:45:35,766 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 00:45:35
+2025-03-06 00:45:35,766 - story_understanding - INFO - Framework: transformer
+2025-03-06 00:45:35,766 - story_understanding - INFO - Dataset info:
+2025-03-06 00:45:35,766 - story_understanding - INFO -   name: all_2dir
+2025-03-06 00:45:35,766 - story_understanding - INFO -   train_size: 1106
+2025-03-06 00:45:35,766 - story_understanding - INFO -   val_size: 442
+2025-03-06 00:45:35,766 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 00:45:35,766 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 00:45:35,766 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 00:45:35,766 - story_understanding - INFO -   batch_size: 32
+2025-03-06 00:45:35,766 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 00:45:35,766 - story_understanding - INFO -   d_model: 256
+2025-03-06 00:45:35,766 - story_understanding - INFO -   d_hid: 569
+2025-03-06 00:45:35,766 - story_understanding - INFO -   nlayers: 4
+2025-03-06 00:45:35,766 - story_understanding - INFO -   nhead: 2
+2025-03-06 00:45:35,766 - story_understanding - INFO -   seed: 446
+2025-03-06 00:45:35,766 - story_understanding - INFO - ======================
+2025-03-06 00:45:35,767 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 00:45:36,663 - story_understanding - INFO - Creating model...
+2025-03-06 00:45:36,688 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 00:51:36,080 - story_understanding - INFO - Best model saved to: models/training/all_2dir_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p5656.pt
+2025-03-06 00:51:36,876 - story_understanding - INFO - Completed experiment: all_2dir_transformer_training at 2025-03-06 00:51:36
+2025-03-06 00:51:36,876 - story_understanding - INFO - Best validation accuracy: 0.5656
+2025-03-06 00:51:36,876 - story_understanding - INFO - Final metrics:
+2025-03-06 00:51:36,876 - story_understanding - INFO -   train_loss (final): 0.7141
+2025-03-06 00:51:36,876 - story_understanding - INFO -   train_accuracy (final): 0.5235
+2025-03-06 00:51:36,876 - story_understanding - INFO -   val_loss (final): 0.7145
+2025-03-06 00:51:36,876 - story_understanding - INFO -   val_accuracy (final): 0.4955
+2025-03-06 00:51:36,876 - story_understanding - INFO - Done!
+2025-03-06 01:40:43,962 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 01:40:44,919 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 01:40:44
+2025-03-06 01:40:44,919 - story_understanding - INFO - Framework: transformer
+2025-03-06 01:40:44,919 - story_understanding - INFO - Dataset info:
+2025-03-06 01:40:44,919 - story_understanding - INFO -   name: all_2dir
+2025-03-06 01:40:44,919 - story_understanding - INFO -   train_size: 1106
+2025-03-06 01:40:44,919 - story_understanding - INFO -   val_size: 442
+2025-03-06 01:40:44,919 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 01:40:44,919 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 01:40:44,919 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 01:40:44,920 - story_understanding - INFO -   batch_size: 32
+2025-03-06 01:40:44,920 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 01:40:44,920 - story_understanding - INFO -   d_model: 256
+2025-03-06 01:40:44,920 - story_understanding - INFO -   d_hid: 569
+2025-03-06 01:40:44,920 - story_understanding - INFO -   nlayers: 4
+2025-03-06 01:40:44,920 - story_understanding - INFO -   nhead: 2
+2025-03-06 01:40:44,920 - story_understanding - INFO -   seed: 446
+2025-03-06 01:40:44,920 - story_understanding - INFO - ======================
+2025-03-06 01:40:44,920 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 01:40:45,776 - story_understanding - INFO - Creating model...
+2025-03-06 01:40:45,801 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 03:25:41,620 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:27:02,362 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:28:14,928 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:32:30,381 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:32:30,942 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 03:32:30
+2025-03-06 03:32:30,942 - story_understanding - INFO - Framework: transformer
+2025-03-06 03:32:30,942 - story_understanding - INFO - Dataset info:
+2025-03-06 03:32:30,942 - story_understanding - INFO -   name: all_2dir
+2025-03-06 03:32:30,942 - story_understanding - INFO -   train_size: 211
+2025-03-06 03:32:30,942 - story_understanding - INFO -   val_size: 744
+2025-03-06 03:32:30,942 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 03:32:30,942 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 03:32:30,942 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 03:32:30,942 - story_understanding - INFO -   batch_size: 32
+2025-03-06 03:32:30,942 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 03:32:30,942 - story_understanding - INFO -   d_model: 256
+2025-03-06 03:32:30,942 - story_understanding - INFO -   d_hid: 569
+2025-03-06 03:32:30,942 - story_understanding - INFO -   nlayers: 4
+2025-03-06 03:32:30,943 - story_understanding - INFO -   nhead: 2
+2025-03-06 03:32:30,943 - story_understanding - INFO -   seed: 446
+2025-03-06 03:32:30,943 - story_understanding - INFO - ======================
+2025-03-06 03:32:30,943 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 03:32:31,806 - story_understanding - INFO - Creating model...
+2025-03-06 03:32:31,829 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 03:34:42,954 - story_understanding - INFO - Best model saved to: models/training/2dir_transformer_ep01_dm256_nl4_do0.41_bs32_lr0.0001_acc0p5430.pt
+2025-03-06 03:34:43,750 - story_understanding - INFO - Completed experiment: all_2dir_transformer_training at 2025-03-06 03:34:43
+2025-03-06 03:34:43,750 - story_understanding - INFO - Best validation accuracy: 0.5430
+2025-03-06 03:34:43,750 - story_understanding - INFO - Final metrics:
+2025-03-06 03:34:43,750 - story_understanding - INFO -   train_loss (final): 0.7549
+2025-03-06 03:34:43,750 - story_understanding - INFO -   train_accuracy (final): 0.5308
+2025-03-06 03:34:43,750 - story_understanding - INFO -   val_loss (final): 0.8204
+2025-03-06 03:34:43,750 - story_understanding - INFO -   val_accuracy (final): 0.5242
+2025-03-06 03:34:43,750 - story_understanding - INFO - Done!
+2025-03-06 03:37:31,022 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:37:31,582 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 03:37:31
+2025-03-06 03:37:31,582 - story_understanding - INFO - Framework: transformer
+2025-03-06 03:37:31,582 - story_understanding - INFO - Dataset info:
+2025-03-06 03:37:31,582 - story_understanding - INFO -   name: all_2dir
+2025-03-06 03:37:31,582 - story_understanding - INFO -   train_size: 211
+2025-03-06 03:37:31,582 - story_understanding - INFO -   val_size: 744
+2025-03-06 03:37:31,583 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 03:37:31,583 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 03:37:31,583 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 03:37:31,583 - story_understanding - INFO -   batch_size: 32
+2025-03-06 03:37:31,583 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 03:37:31,583 - story_understanding - INFO -   d_model: 256
+2025-03-06 03:37:31,583 - story_understanding - INFO -   d_hid: 569
+2025-03-06 03:37:31,583 - story_understanding - INFO -   nlayers: 4
+2025-03-06 03:37:31,583 - story_understanding - INFO -   nhead: 2
+2025-03-06 03:37:31,583 - story_understanding - INFO -   seed: 446
+2025-03-06 03:37:31,583 - story_understanding - INFO - ======================
+2025-03-06 03:37:31,583 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 03:37:32,375 - story_understanding - INFO - Creating model...
+2025-03-06 03:37:32,390 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 03:40:13,138 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:40:13,694 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 03:40:13
+2025-03-06 03:40:13,694 - story_understanding - INFO - Framework: transformer
+2025-03-06 03:40:13,694 - story_understanding - INFO - Dataset info:
+2025-03-06 03:40:13,694 - story_understanding - INFO -   name: all_2dir
+2025-03-06 03:40:13,694 - story_understanding - INFO -   train_size: 211
+2025-03-06 03:40:13,694 - story_understanding - INFO -   val_size: 744
+2025-03-06 03:40:13,694 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 03:40:13,694 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 03:40:13,694 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 03:40:13,694 - story_understanding - INFO -   batch_size: 32
+2025-03-06 03:40:13,694 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 03:40:13,694 - story_understanding - INFO -   d_model: 256
+2025-03-06 03:40:13,694 - story_understanding - INFO -   d_hid: 569
+2025-03-06 03:40:13,694 - story_understanding - INFO -   nlayers: 4
+2025-03-06 03:40:13,694 - story_understanding - INFO -   nhead: 2
+2025-03-06 03:40:13,694 - story_understanding - INFO -   seed: 446
+2025-03-06 03:40:13,694 - story_understanding - INFO - ======================
+2025-03-06 03:40:13,694 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 03:40:14,491 - story_understanding - INFO - Creating model...
+2025-03-06 03:40:14,501 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 03:45:55,771 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 03:45:56,342 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 03:45:56
+2025-03-06 03:45:56,342 - story_understanding - INFO - Framework: transformer
+2025-03-06 03:45:56,342 - story_understanding - INFO - Dataset info:
+2025-03-06 03:45:56,342 - story_understanding - INFO -   name: all_2dir
+2025-03-06 03:45:56,342 - story_understanding - INFO -   train_size: 211
+2025-03-06 03:45:56,342 - story_understanding - INFO -   val_size: 744
+2025-03-06 03:45:56,342 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 03:45:56,343 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 03:45:56,343 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 03:45:56,343 - story_understanding - INFO -   batch_size: 32
+2025-03-06 03:45:56,343 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 03:45:56,343 - story_understanding - INFO -   d_model: 256
+2025-03-06 03:45:56,343 - story_understanding - INFO -   d_hid: 569
+2025-03-06 03:45:56,343 - story_understanding - INFO -   nlayers: 4
+2025-03-06 03:45:56,343 - story_understanding - INFO -   nhead: 2
+2025-03-06 03:45:56,343 - story_understanding - INFO -   seed: 446
+2025-03-06 03:45:56,343 - story_understanding - INFO - ======================
+2025-03-06 03:45:56,343 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 03:45:57,318 - story_understanding - INFO - Creating model...
+2025-03-06 03:45:57,346 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 03:53:29,617 - story_understanding - INFO - Best model saved to: models/training/2dir_transformer_ep01_dm256_nl4_do0.41_bs32_lr0.0001_acc0p5430.pt
+2025-03-06 03:53:30,742 - story_understanding - INFO - Completed experiment: all_2dir_transformer_training at 2025-03-06 03:53:30
+2025-03-06 03:53:30,742 - story_understanding - INFO - Best validation accuracy: 0.5430
+2025-03-06 03:53:30,742 - story_understanding - INFO - Final metrics:
+2025-03-06 03:53:30,742 - story_understanding - INFO -   train_loss (final): 0.7549
+2025-03-06 03:53:30,742 - story_understanding - INFO -   train_accuracy (final): 0.5308
+2025-03-06 03:53:30,742 - story_understanding - INFO -   val_loss (final): 0.8204
+2025-03-06 03:53:30,742 - story_understanding - INFO -   val_accuracy (final): 0.5242
+2025-03-06 03:53:30,743 - story_understanding - INFO - Done!
+2025-03-06 04:02:58,881 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 04:02:59,449 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 04:02:59
+2025-03-06 04:02:59,449 - story_understanding - INFO - Framework: transformer
+2025-03-06 04:02:59,449 - story_understanding - INFO - Dataset info:
+2025-03-06 04:02:59,449 - story_understanding - INFO -   name: all_2dir
+2025-03-06 04:02:59,449 - story_understanding - INFO -   train_size: 211
+2025-03-06 04:02:59,449 - story_understanding - INFO -   val_size: 744
+2025-03-06 04:02:59,449 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 04:02:59,449 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 04:02:59,449 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 04:02:59,449 - story_understanding - INFO -   batch_size: 32
+2025-03-06 04:02:59,449 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 04:02:59,449 - story_understanding - INFO -   d_model: 256
+2025-03-06 04:02:59,449 - story_understanding - INFO -   d_hid: 569
+2025-03-06 04:02:59,449 - story_understanding - INFO -   nlayers: 4
+2025-03-06 04:02:59,449 - story_understanding - INFO -   nhead: 2
+2025-03-06 04:02:59,449 - story_understanding - INFO -   seed: 446
+2025-03-06 04:02:59,449 - story_understanding - INFO - ======================
+2025-03-06 04:02:59,450 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 04:03:00,353 - story_understanding - INFO - Creating model...
+2025-03-06 04:03:00,385 - story_understanding - INFO - Training model on all_2dir dataset...
+2025-03-06 04:07:35,756 - story_understanding - INFO - Best model saved to: models/training/2dir_transformer_ep01_dm256_nl4_do0.41_bs32_lr0.0001_acc0p5430.pt
+2025-03-06 04:07:36,656 - story_understanding - INFO - Completed experiment: all_2dir_transformer_training at 2025-03-06 04:07:36
+2025-03-06 04:07:36,656 - story_understanding - INFO - Best validation accuracy: 0.5430
+2025-03-06 04:07:36,656 - story_understanding - INFO - Final metrics:
+2025-03-06 04:07:36,656 - story_understanding - INFO -   train_loss (final): 0.8473
+2025-03-06 04:07:36,656 - story_understanding - INFO -   train_accuracy (final): 0.4929
+2025-03-06 04:07:36,656 - story_understanding - INFO -   val_loss (final): 0.8262
+2025-03-06 04:07:36,656 - story_understanding - INFO -   val_accuracy (final): 0.4987
+2025-03-06 04:07:36,656 - story_understanding - INFO - Done!
+2025-03-06 05:29:27,748 - story_understanding - INFO - Preparing data for all_2dir dataset...
+2025-03-06 05:29:28,583 - story_understanding - INFO - Starting experiment: all_2dir_transformer_experiment at 2025-03-06 05:29:28
+2025-03-06 05:29:28,583 - story_understanding - INFO - Framework: transformer
+2025-03-06 05:29:28,583 - story_understanding - INFO - Dataset info:
+2025-03-06 05:29:28,583 - story_understanding - INFO -   name: all_2dir
+2025-03-06 05:29:28,583 - story_understanding - INFO -   train_size: 211
+2025-03-06 05:29:28,583 - story_understanding - INFO -   val_size: 744
+2025-03-06 05:29:28,584 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 05:29:28,584 - story_understanding - INFO -   validb_size: 328
+2025-03-06 05:29:28,584 - story_understanding - INFO -   test_size: 167
+2025-03-06 05:29:28,584 - story_understanding - INFO - Automatically found best model at: models/training/all_2dir_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p5656.pt
+2025-03-06 05:29:28,585 - story_understanding - INFO - Loading model from models/training/all_2dir_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p5656.pt...
+2025-03-06 05:29:28,585 - story_understanding - INFO - Creating model with hyperparameters extracted from model filename
+2025-03-06 05:29:29,448 - story_understanding - INFO - Evaluating model on test set...
+2025-03-06 05:29:30,067 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.4551, Loss = 0.8623
+2025-03-06 05:29:30,067 - story_understanding - INFO - Done!

@@ -1,0 +1,309 @@
+2025-03-03 23:19:11,860 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:19:11,869 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-03 23:19:11
+2025-03-03 23:19:11,869 - story_understanding - INFO - Framework: pytorch
+2025-03-03 23:19:11,869 - story_understanding - INFO - Dataset info:
+2025-03-03 23:19:11,869 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:19:11,869 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:19:11,869 - story_understanding - INFO -   val_size: 3
+2025-03-03 23:19:11,869 - story_understanding - INFO -   vocab_size: 29
+2025-03-03 23:19:11,869 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:19:11,869 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-03 23:19:11,869 - story_understanding - INFO -   batch_size: 32
+2025-03-03 23:19:11,869 - story_understanding - INFO -   dropout: 0.565
+2025-03-03 23:19:11,869 - story_understanding - INFO -   d_model: 512
+2025-03-03 23:19:11,869 - story_understanding - INFO -   d_hid: 565
+2025-03-03 23:19:11,869 - story_understanding - INFO -   nlayers: 3
+2025-03-03 23:19:11,869 - story_understanding - INFO -   nhead: 4
+2025-03-03 23:19:11,869 - story_understanding - INFO -   seed: 215
+2025-03-03 23:19:11,869 - story_understanding - INFO - ======================
+2025-03-03 23:19:11,870 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-03 23:19:12,731 - story_understanding - INFO - Creating model...
+2025-03-03 23:19:12,761 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-03 23:36:10,921 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:36:10,932 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-03 23:36:10
+2025-03-03 23:36:10,932 - story_understanding - INFO - Framework: pytorch
+2025-03-03 23:36:10,932 - story_understanding - INFO - Dataset info:
+2025-03-03 23:36:10,932 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:36:10,932 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:36:10,932 - story_understanding - INFO -   val_size: 3
+2025-03-03 23:36:10,932 - story_understanding - INFO -   vocab_size: 29
+2025-03-03 23:36:10,932 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:36:10,932 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-03 23:36:10,932 - story_understanding - INFO -   batch_size: 32
+2025-03-03 23:36:10,932 - story_understanding - INFO -   dropout: 0.565
+2025-03-03 23:36:10,932 - story_understanding - INFO -   d_model: 512
+2025-03-03 23:36:10,932 - story_understanding - INFO -   d_hid: 565
+2025-03-03 23:36:10,932 - story_understanding - INFO -   nlayers: 3
+2025-03-03 23:36:10,932 - story_understanding - INFO -   nhead: 4
+2025-03-03 23:36:10,932 - story_understanding - INFO -   seed: 215
+2025-03-03 23:36:10,932 - story_understanding - INFO - ======================
+2025-03-03 23:36:10,932 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-03 23:36:12,569 - story_understanding - INFO - Creating model...
+2025-03-03 23:36:12,602 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 11:14:39,252 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 11:14:39,264 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 11:14:39
+2025-03-04 11:14:39,264 - story_understanding - INFO - Framework: pytorch
+2025-03-04 11:14:39,264 - story_understanding - INFO - Dataset info:
+2025-03-04 11:14:39,264 - story_understanding - INFO -   name: 4directional
+2025-03-04 11:14:39,264 - story_understanding - INFO -   train_size: 5
+2025-03-04 11:14:39,264 - story_understanding - INFO -   val_size: 3
+2025-03-04 11:14:39,264 - story_understanding - INFO -   vocab_size: 31
+2025-03-04 11:14:39,264 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 11:14:39,264 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 11:14:39,264 - story_understanding - INFO -   batch_size: 32
+2025-03-04 11:14:39,264 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 11:14:39,264 - story_understanding - INFO -   d_model: 512
+2025-03-04 11:14:39,264 - story_understanding - INFO -   d_hid: 565
+2025-03-04 11:14:39,264 - story_understanding - INFO -   nlayers: 3
+2025-03-04 11:14:39,264 - story_understanding - INFO -   nhead: 4
+2025-03-04 11:14:39,264 - story_understanding - INFO -   seed: 215
+2025-03-04 11:14:39,264 - story_understanding - INFO - ======================
+2025-03-04 11:14:39,265 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 11:14:41,346 - story_understanding - INFO - Creating model...
+2025-03-04 11:14:41,384 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 11:14:58,276 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 11:14:58
+2025-03-04 11:14:58,277 - story_understanding - INFO - Best validation accuracy: 0.6667
+2025-03-04 11:14:58,277 - story_understanding - INFO - Final metrics:
+2025-03-04 11:14:58,277 - story_understanding - INFO -   train_loss (final): 2.3657
+2025-03-04 11:14:58,277 - story_understanding - INFO -   train_accuracy (final): 0.4000
+2025-03-04 11:14:58,277 - story_understanding - INFO -   val_loss (final): 0.8496
+2025-03-04 11:14:58,277 - story_understanding - INFO -   val_accuracy (final): 0.6667
+2025-03-04 11:14:58,277 - story_understanding - INFO - Done!
+2025-03-04 11:45:53,151 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 11:45:53,161 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 11:45:53
+2025-03-04 11:45:53,161 - story_understanding - INFO - Framework: pytorch
+2025-03-04 11:45:53,161 - story_understanding - INFO - Dataset info:
+2025-03-04 11:45:53,161 - story_understanding - INFO -   name: 4directional
+2025-03-04 11:45:53,161 - story_understanding - INFO -   train_size: 5
+2025-03-04 11:45:53,161 - story_understanding - INFO -   val_size: 3
+2025-03-04 11:45:53,161 - story_understanding - INFO -   vocab_size: 31
+2025-03-04 11:45:53,161 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 11:45:53,161 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 11:45:53,161 - story_understanding - INFO -   batch_size: 32
+2025-03-04 11:45:53,161 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 11:45:53,162 - story_understanding - INFO -   d_model: 512
+2025-03-04 11:45:53,162 - story_understanding - INFO -   d_hid: 565
+2025-03-04 11:45:53,162 - story_understanding - INFO -   nlayers: 3
+2025-03-04 11:45:53,162 - story_understanding - INFO -   nhead: 4
+2025-03-04 11:45:53,162 - story_understanding - INFO -   seed: 215
+2025-03-04 11:45:53,162 - story_understanding - INFO - ======================
+2025-03-04 11:45:53,162 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 11:45:54,245 - story_understanding - INFO - Creating model...
+2025-03-04 11:45:54,283 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 11:46:10,151 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 11:46:10
+2025-03-04 11:46:10,152 - story_understanding - INFO - Best validation accuracy: 0.6667
+2025-03-04 11:46:10,152 - story_understanding - INFO - Final metrics:
+2025-03-04 11:46:10,152 - story_understanding - INFO -   train_loss (final): 2.3657
+2025-03-04 11:46:10,152 - story_understanding - INFO -   train_accuracy (final): 0.4000
+2025-03-04 11:46:10,152 - story_understanding - INFO -   val_loss (final): 0.8496
+2025-03-04 11:46:10,152 - story_understanding - INFO -   val_accuracy (final): 0.6667
+2025-03-04 11:46:10,152 - story_understanding - INFO - Done!
+2025-03-04 14:57:06,117 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 14:57:06,136 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 14:57:06
+2025-03-04 14:57:06,136 - story_understanding - INFO - Framework: pytorch
+2025-03-04 14:57:06,136 - story_understanding - INFO - Dataset info:
+2025-03-04 14:57:06,136 - story_understanding - INFO -   name: 4directional
+2025-03-04 14:57:06,136 - story_understanding - INFO -   train_size: 24
+2025-03-04 14:57:06,136 - story_understanding - INFO -   val_size: 1
+2025-03-04 14:57:06,136 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 14:57:06,136 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 14:57:06,136 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 14:57:06,136 - story_understanding - INFO -   batch_size: 32
+2025-03-04 14:57:06,136 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 14:57:06,136 - story_understanding - INFO -   d_model: 512
+2025-03-04 14:57:06,136 - story_understanding - INFO -   d_hid: 565
+2025-03-04 14:57:06,136 - story_understanding - INFO -   nlayers: 3
+2025-03-04 14:57:06,136 - story_understanding - INFO -   nhead: 4
+2025-03-04 14:57:06,136 - story_understanding - INFO -   seed: 215
+2025-03-04 14:57:06,136 - story_understanding - INFO - ======================
+2025-03-04 14:57:06,137 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 14:57:08,918 - story_understanding - INFO - Creating model...
+2025-03-04 14:57:08,958 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 14:58:02,520 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 14:58:02
+2025-03-04 14:58:02,520 - story_understanding - INFO - Best validation accuracy: 1.0000
+2025-03-04 14:58:02,521 - story_understanding - INFO - Final metrics:
+2025-03-04 14:58:02,521 - story_understanding - INFO -   train_loss (final): 0.2513
+2025-03-04 14:58:02,521 - story_understanding - INFO -   train_accuracy (final): 0.8333
+2025-03-04 14:58:02,521 - story_understanding - INFO -   val_loss (final): 0.0000
+2025-03-04 14:58:02,521 - story_understanding - INFO -   val_accuracy (final): 1.0000
+2025-03-04 14:58:02,521 - story_understanding - INFO - Done!
+2025-03-04 17:12:23,050 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 17:12:23,070 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 17:12:23
+2025-03-04 17:12:23,070 - story_understanding - INFO - Framework: pytorch
+2025-03-04 17:12:23,070 - story_understanding - INFO - Dataset info:
+2025-03-04 17:12:23,070 - story_understanding - INFO -   name: 4directional
+2025-03-04 17:12:23,070 - story_understanding - INFO -   train_size: 24
+2025-03-04 17:12:23,070 - story_understanding - INFO -   val_size: 1
+2025-03-04 17:12:23,070 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 17:12:23,070 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 17:12:23,070 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 17:12:23,070 - story_understanding - INFO -   batch_size: 32
+2025-03-04 17:12:23,070 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 17:12:23,070 - story_understanding - INFO -   d_model: 512
+2025-03-04 17:12:23,070 - story_understanding - INFO -   d_hid: 565
+2025-03-04 17:12:23,070 - story_understanding - INFO -   nlayers: 3
+2025-03-04 17:12:23,070 - story_understanding - INFO -   nhead: 4
+2025-03-04 17:12:23,070 - story_understanding - INFO -   seed: 215
+2025-03-04 17:12:23,071 - story_understanding - INFO - ======================
+2025-03-04 17:12:23,071 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 17:12:29,441 - story_understanding - INFO - Creating model...
+2025-03-04 17:12:29,475 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 17:13:23,806 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 17:13:23
+2025-03-04 17:13:23,806 - story_understanding - INFO - Best validation accuracy: 1.0000
+2025-03-04 17:13:23,806 - story_understanding - INFO - Final metrics:
+2025-03-04 17:13:23,806 - story_understanding - INFO -   train_loss (final): 0.2513
+2025-03-04 17:13:23,807 - story_understanding - INFO -   train_accuracy (final): 0.8333
+2025-03-04 17:13:23,807 - story_understanding - INFO -   val_loss (final): 0.0000
+2025-03-04 17:13:23,807 - story_understanding - INFO -   val_accuracy (final): 1.0000
+2025-03-04 17:13:23,807 - story_understanding - INFO - Done!
+2025-03-04 17:34:19,642 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 17:34:19,685 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 17:34:19
+2025-03-04 17:34:19,685 - story_understanding - INFO - Framework: pytorch
+2025-03-04 17:34:19,685 - story_understanding - INFO - Dataset info:
+2025-03-04 17:34:19,685 - story_understanding - INFO -   name: 4directional
+2025-03-04 17:34:19,685 - story_understanding - INFO -   train_size: 100
+2025-03-04 17:34:19,685 - story_understanding - INFO -   val_size: 20
+2025-03-04 17:34:19,685 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 17:34:19,685 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 17:34:19,685 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 17:34:19,685 - story_understanding - INFO -   batch_size: 32
+2025-03-04 17:34:19,685 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 17:34:19,685 - story_understanding - INFO -   d_model: 512
+2025-03-04 17:34:19,685 - story_understanding - INFO -   d_hid: 565
+2025-03-04 17:34:19,685 - story_understanding - INFO -   nlayers: 3
+2025-03-04 17:34:19,685 - story_understanding - INFO -   nhead: 4
+2025-03-04 17:34:19,685 - story_understanding - INFO -   seed: 215
+2025-03-04 17:34:19,685 - story_understanding - INFO - ======================
+2025-03-04 17:34:19,686 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 17:34:20,719 - story_understanding - INFO - Creating model...
+2025-03-04 17:34:20,761 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 17:38:30,026 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 17:38:30
+2025-03-04 17:38:30,027 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-04 17:38:30,027 - story_understanding - INFO - Final metrics:
+2025-03-04 17:38:30,027 - story_understanding - INFO -   train_loss (final): 0.5319
+2025-03-04 17:38:30,027 - story_understanding - INFO -   train_accuracy (final): 0.7800
+2025-03-04 17:38:30,027 - story_understanding - INFO -   val_loss (final): 1.7777
+2025-03-04 17:38:30,027 - story_understanding - INFO -   val_accuracy (final): 0.5500
+2025-03-04 17:38:30,027 - story_understanding - INFO - Done!
+2025-03-04 18:06:39,340 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:06:39,383 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 18:06:39
+2025-03-04 18:06:39,383 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:06:39,384 - story_understanding - INFO - Dataset info:
+2025-03-04 18:06:39,384 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:06:39,384 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:06:39,384 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:06:39,384 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 18:06:39,384 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:06:39,384 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 18:06:39,384 - story_understanding - INFO -   batch_size: 32
+2025-03-04 18:06:39,384 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 18:06:39,384 - story_understanding - INFO -   d_model: 512
+2025-03-04 18:06:39,384 - story_understanding - INFO -   d_hid: 565
+2025-03-04 18:06:39,384 - story_understanding - INFO -   nlayers: 3
+2025-03-04 18:06:39,384 - story_understanding - INFO -   nhead: 4
+2025-03-04 18:06:39,384 - story_understanding - INFO -   seed: 215
+2025-03-04 18:06:39,384 - story_understanding - INFO - ======================
+2025-03-04 18:06:39,384 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 18:06:40,285 - story_understanding - INFO - Creating model...
+2025-03-04 18:06:40,316 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 18:10:26,534 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 18:10:26
+2025-03-04 18:10:26,535 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-04 18:10:26,535 - story_understanding - INFO - Final metrics:
+2025-03-04 18:10:26,535 - story_understanding - INFO -   train_loss (final): 0.5319
+2025-03-04 18:10:26,535 - story_understanding - INFO -   train_accuracy (final): 0.7800
+2025-03-04 18:10:26,535 - story_understanding - INFO -   val_loss (final): 1.7777
+2025-03-04 18:10:26,535 - story_understanding - INFO -   val_accuracy (final): 0.5500
+2025-03-04 18:10:26,535 - story_understanding - INFO - Done!
+2025-03-04 18:22:41,519 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:22:41,563 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 18:22:41
+2025-03-04 18:22:41,563 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:22:41,563 - story_understanding - INFO - Dataset info:
+2025-03-04 18:22:41,563 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:22:41,563 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:22:41,563 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:22:41,563 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 18:22:41,563 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:22:41,563 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 18:22:41,563 - story_understanding - INFO -   batch_size: 32
+2025-03-04 18:22:41,563 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 18:22:41,563 - story_understanding - INFO -   d_model: 512
+2025-03-04 18:22:41,563 - story_understanding - INFO -   d_hid: 565
+2025-03-04 18:22:41,563 - story_understanding - INFO -   nlayers: 3
+2025-03-04 18:22:41,563 - story_understanding - INFO -   nhead: 4
+2025-03-04 18:22:41,563 - story_understanding - INFO -   seed: 215
+2025-03-04 18:22:41,563 - story_understanding - INFO - ======================
+2025-03-04 18:22:41,563 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 18:22:42,671 - story_understanding - INFO - Creating model...
+2025-03-04 18:22:42,706 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 18:26:31,158 - story_understanding - INFO - Best model saved to: models/4directional_pt_model_best.pt
+2025-03-04 18:26:31,337 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 18:26:31
+2025-03-04 18:26:31,337 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-04 18:26:31,337 - story_understanding - INFO - Final metrics:
+2025-03-04 18:26:31,337 - story_understanding - INFO -   train_loss (final): 0.5319
+2025-03-04 18:26:31,337 - story_understanding - INFO -   train_accuracy (final): 0.7800
+2025-03-04 18:26:31,337 - story_understanding - INFO -   val_loss (final): 1.7777
+2025-03-04 18:26:31,337 - story_understanding - INFO -   val_accuracy (final): 0.5500
+2025-03-04 18:26:31,337 - story_understanding - INFO - Done!
+2025-03-04 18:30:35,835 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:30:35,883 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 18:30:35
+2025-03-04 18:30:35,883 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:30:35,883 - story_understanding - INFO - Dataset info:
+2025-03-04 18:30:35,883 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:30:35,883 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:30:35,883 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:30:35,883 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 18:30:35,883 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:30:35,883 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 18:30:35,883 - story_understanding - INFO -   batch_size: 32
+2025-03-04 18:30:35,883 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 18:30:35,883 - story_understanding - INFO -   d_model: 512
+2025-03-04 18:30:35,883 - story_understanding - INFO -   d_hid: 565
+2025-03-04 18:30:35,884 - story_understanding - INFO -   nlayers: 3
+2025-03-04 18:30:35,884 - story_understanding - INFO -   nhead: 4
+2025-03-04 18:30:35,884 - story_understanding - INFO -   seed: 215
+2025-03-04 18:30:35,884 - story_understanding - INFO - ======================
+2025-03-04 18:30:35,884 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 18:44:24,130 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:44:24,172 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 18:44:24
+2025-03-04 18:44:24,172 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:44:24,172 - story_understanding - INFO - Dataset info:
+2025-03-04 18:44:24,172 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:44:24,172 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:44:24,172 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:44:24,172 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 18:44:24,172 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:44:24,172 - story_understanding - INFO -   learning_rate: 0.00017
+2025-03-04 18:44:24,172 - story_understanding - INFO -   batch_size: 32
+2025-03-04 18:44:24,172 - story_understanding - INFO -   dropout: 0.565
+2025-03-04 18:44:24,172 - story_understanding - INFO -   d_model: 512
+2025-03-04 18:44:24,173 - story_understanding - INFO -   d_hid: 565
+2025-03-04 18:44:24,173 - story_understanding - INFO -   nlayers: 3
+2025-03-04 18:44:24,173 - story_understanding - INFO -   nhead: 4
+2025-03-04 18:44:24,173 - story_understanding - INFO -   seed: 215
+2025-03-04 18:44:24,173 - story_understanding - INFO - ======================
+2025-03-04 18:44:24,173 - story_understanding - INFO - Using hyperparameter-specified seed: 215
+2025-03-04 18:44:26,557 - story_understanding - INFO - Creating model...
+2025-03-04 18:44:26,578 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 18:48:14,158 - story_understanding - INFO - Best model saved to: models/4directional_pt_model_best.pt
+2025-03-04 18:48:14,333 - story_understanding - INFO - Completed experiment: 4directional_pytorch_training at 2025-03-04 18:48:14
+2025-03-04 18:48:14,333 - story_understanding - INFO - Best validation accuracy: 0.6000
+2025-03-04 18:48:14,333 - story_understanding - INFO - Final metrics:
+2025-03-04 18:48:14,333 - story_understanding - INFO -   train_loss (final): 0.5319
+2025-03-04 18:48:14,333 - story_understanding - INFO -   train_accuracy (final): 0.7800
+2025-03-04 18:48:14,333 - story_understanding - INFO -   val_loss (final): 1.7777
+2025-03-04 18:48:14,334 - story_understanding - INFO -   val_accuracy (final): 0.5500
+2025-03-04 18:48:14,334 - story_understanding - INFO - Done!
+2025-03-04 18:48:56,629 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:48:56,675 - story_understanding - INFO - Starting experiment: 4directional_pytorch_experiment at 2025-03-04 18:48:56
+2025-03-04 18:48:56,675 - story_understanding - INFO - Framework: pytorch
+2025-03-04 18:48:56,675 - story_understanding - INFO - Dataset info:
+2025-03-04 18:48:56,675 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:48:56,675 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:48:56,675 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:48:56,675 - story_understanding - INFO -   vocab_size: 52
+2025-03-04 18:48:56,675 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:48:56,675 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:48:56,675 - story_understanding - INFO - Loading model from models/4directional_pt_model_best.pt...
+2025-03-04 18:48:58,028 - story_understanding - INFO - Evaluating model on test set...
+2025-03-04 18:48:58,476 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.6000, Loss = 0.7102
+2025-03-04 18:48:58,476 - story_understanding - INFO - Done!

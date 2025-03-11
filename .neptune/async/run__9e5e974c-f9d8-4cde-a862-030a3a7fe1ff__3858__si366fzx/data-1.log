@@ -1,0 +1,11 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "2dir_lstm_optimization"}, "version": 1, "at": 1741291025.234745}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741291025.234912}
+{"obj": {"type": "AssignString", "path": ["monitoring", "5b5fe379", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741291025.2349892}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741291025.235036}
+{"obj": {"type": "AssignString", "path": ["monitoring", "5b5fe379", "pid"], "value": "3858"}, "version": 5, "at": 1741291025.235083}
+{"obj": {"type": "AssignString", "path": ["monitoring", "5b5fe379", "tid"], "value": "8071241408"}, "version": 6, "at": 1741291025.2351239}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["optimization", "lstm", "2dir"]}, "version": 7, "at": 1741291025.235193}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741291025.2352278}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "2dir"}, "version": 9, "at": 1741291025.2383978}
+{"obj": {"type": "AssignString", "path": ["parameters", "framework"], "value": "lstm"}, "version": 10, "at": 1741291025.2385468}
+{"obj": {"type": "AssignBool", "path": ["parameters", "optimization"], "value": true}, "version": 11, "at": 1741291025.238608}

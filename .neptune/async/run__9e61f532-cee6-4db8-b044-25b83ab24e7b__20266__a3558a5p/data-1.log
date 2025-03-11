@@ -1,0 +1,28 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "4dir_transformer_trial_2"}, "version": 1, "at": 1741435627.694943}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741435627.695424}
+{"obj": {"type": "AssignString", "path": ["monitoring", "2ef88c1a", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741435627.695554}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741435627.695634}
+{"obj": {"type": "AssignString", "path": ["monitoring", "2ef88c1a", "pid"], "value": "20266"}, "version": 5, "at": 1741435627.69571}
+{"obj": {"type": "AssignString", "path": ["monitoring", "2ef88c1a", "tid"], "value": "8071241408"}, "version": 6, "at": 1741435627.6957839}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["trial_2", "optimization", "transformer", "4dir"]}, "version": 7, "at": 1741435627.695908}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741435627.695991}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "4dir"}, "version": 9, "at": 1741435627.702028}
+{"obj": {"type": "AssignString", "path": ["parameters", "framework"], "value": "transformer"}, "version": 10, "at": 1741435627.70331}
+{"obj": {"type": "AssignBool", "path": ["parameters", "optimization"], "value": true}, "version": 11, "at": 1741435627.704009}
+{"obj": {"type": "AssignInt", "path": ["parameters", "trial_number"], "value": 2}, "version": 12, "at": 1741435627.704274}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "learning_rate"], "value": 0.0001231567822396755}, "version": 13, "at": 1741435627.704463}
+{"obj": {"type": "AssignInt", "path": ["parameters", "batch_size"], "value": 64}, "version": 14, "at": 1741435627.704562}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "dropout"], "value": 0.6136792548000812}, "version": 15, "at": 1741435627.7046242}
+{"obj": {"type": "AssignInt", "path": ["parameters", "d_hid"], "value": 711}, "version": 16, "at": 1741435627.704677}
+{"obj": {"type": "AssignInt", "path": ["parameters", "d_model"], "value": 768}, "version": 17, "at": 1741435627.704725}
+{"obj": {"type": "AssignInt", "path": ["parameters", "nlayers"], "value": 4}, "version": 18, "at": 1741435627.705038}
+{"obj": {"type": "AssignInt", "path": ["parameters", "nhead"], "value": 4}, "version": 19, "at": 1741435627.7050922}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "placeholder"], "values": [{"value": 0.0, "step": null, "ts": 1741435627.7443762}]}, "version": 20, "at": 1741435627.744398}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "train_loss"], "values": [{"value": 4.329295858383179, "step": 0, "ts": 1741435662.581853}]}, "version": 21, "at": 1741435662.581986}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "train_accuracy"], "values": [{"value": 0.468, "step": 0, "ts": 1741435662.582415}]}, "version": 22, "at": 1741435662.582433}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "val_loss"], "values": [{"value": 2.7701636927468436, "step": 0, "ts": 1741435662.582578}]}, "version": 23, "at": 1741435662.582591}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "val_accuracy"], "values": [{"value": 0.34285714285714286, "step": 0, "ts": 1741435662.582936}]}, "version": 24, "at": 1741435662.582952}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "train_loss"], "values": [{"value": 2.502253845214844, "step": 1, "ts": 1741435736.223716}]}, "version": 25, "at": 1741435736.2239292}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "train_accuracy"], "values": [{"value": 0.508, "step": 1, "ts": 1741435736.225017}]}, "version": 26, "at": 1741435736.2250502}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "val_loss"], "values": [{"value": 5.139194938114711, "step": 1, "ts": 1741435736.225186}]}, "version": 27, "at": 1741435736.2252018}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "val_accuracy"], "values": [{"value": 0.34285714285714286, "step": 1, "ts": 1741435736.225373}]}, "version": 28, "at": 1741435736.225405}

@@ -1,0 +1,18 @@
+2025-03-05 15:59:04,160 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-05 15:59:04,196 - story_understanding - INFO - Starting experiment: 4directional_lstm_experiment at 2025-03-05 15:59:04
+2025-03-05 15:59:04,196 - story_understanding - INFO - Framework: lstm
+2025-03-05 15:59:04,196 - story_understanding - INFO - Dataset info:
+2025-03-05 15:59:04,196 - story_understanding - INFO -   name: 4directional
+2025-03-05 15:59:04,196 - story_understanding - INFO -   train_size: 100
+2025-03-05 15:59:04,196 - story_understanding - INFO -   val_size: 20
+2025-03-05 15:59:04,196 - story_understanding - INFO -   vocab_size: 55
+2025-03-05 15:59:04,196 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 15:59:04,196 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-05 15:59:04,196 - story_understanding - INFO -   batch_size: 64
+2025-03-05 15:59:04,196 - story_understanding - INFO -   dropout: 0.38
+2025-03-05 15:59:04,196 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-05 15:59:04,196 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-05 15:59:04,196 - story_understanding - INFO -   hidden_layers: 134
+2025-03-05 15:59:04,196 - story_understanding - INFO - ======================
+2025-03-05 15:59:05,638 - story_understanding - INFO - Creating model...
+2025-03-05 15:59:06,972 - story_understanding - INFO - Training model on 4directional dataset...

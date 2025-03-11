@@ -1,0 +1,67 @@
+2025-03-06 04:22:26,602 - story_understanding - INFO - Preparing data for all_4dir dataset...
+2025-03-06 04:22:27,209 - story_understanding - INFO - Starting experiment: all_4dir_lstm_experiment at 2025-03-06 04:22:27
+2025-03-06 04:22:27,209 - story_understanding - INFO - Framework: lstm
+2025-03-06 04:22:27,209 - story_understanding - INFO - Dataset info:
+2025-03-06 04:22:27,210 - story_understanding - INFO -   name: all_4dir
+2025-03-06 04:22:27,210 - story_understanding - INFO -   train_size: 214
+2025-03-06 04:22:27,210 - story_understanding - INFO -   val_size: 761
+2025-03-06 04:22:27,210 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 04:22:27,210 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 04:22:27,210 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-06 04:22:27,210 - story_understanding - INFO -   batch_size: 64
+2025-03-06 04:22:27,210 - story_understanding - INFO -   dropout: 0.38
+2025-03-06 04:22:27,210 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-06 04:22:27,210 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-06 04:22:27,210 - story_understanding - INFO -   hidden_layers: 134
+2025-03-06 04:22:27,210 - story_understanding - INFO - ======================
+2025-03-06 04:22:28,114 - story_understanding - INFO - Creating model...
+2025-03-06 04:22:28,696 - story_understanding - INFO - Training model on all_4dir dataset...
+2025-03-06 04:26:02,963 - story_understanding - INFO - Best model saved to: models/training/4dir_lstm_ep00_hl134_do0.38_bs64_lr0.0001_acc0p4928.h5
+2025-03-06 04:26:04,006 - story_understanding - INFO - Completed experiment: all_4dir_lstm_training at 2025-03-06 04:26:04
+2025-03-06 04:26:04,006 - story_understanding - INFO - Best validation accuracy: 0.4928
+2025-03-06 04:26:04,006 - story_understanding - INFO - Final metrics:
+2025-03-06 04:26:04,006 - story_understanding - INFO -   train_loss (final): 0.6917
+2025-03-06 04:26:04,006 - story_understanding - INFO -   train_accuracy (final): 0.5561
+2025-03-06 04:26:04,006 - story_understanding - INFO -   val_loss (final): 0.6954
+2025-03-06 04:26:04,006 - story_understanding - INFO -   val_accuracy (final): 0.4928
+2025-03-06 04:26:04,006 - story_understanding - INFO - Done!
+2025-03-06 04:37:34,443 - story_understanding - INFO - Preparing data for all_4dir dataset...
+2025-03-06 04:37:34,987 - story_understanding - INFO - Starting experiment: all_4dir_lstm_experiment at 2025-03-06 04:37:34
+2025-03-06 04:37:34,987 - story_understanding - INFO - Framework: lstm
+2025-03-06 04:37:34,987 - story_understanding - INFO - Dataset info:
+2025-03-06 04:37:34,987 - story_understanding - INFO -   name: all_4dir
+2025-03-06 04:37:34,987 - story_understanding - INFO -   train_size: 214
+2025-03-06 04:37:34,987 - story_understanding - INFO -   val_size: 761
+2025-03-06 04:37:34,988 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 04:37:34,988 - story_understanding - INFO - Starting hyperparameter optimization for all_4dir dataset...
+2025-03-06 04:46:59,067 - story_understanding - INFO - Best hyperparameters for all_4dir: {'learning_rate': 1.5800938333934866e-05, 'batch_size': 32, 'dropout': 0.38298759572207924, 'l1_regul': 9.020004140994177e-05, 'l2_regul': 4.764146272246531e-06, 'hidden_layers': 135}
+2025-03-06 04:46:59,069 - story_understanding - INFO - Done!
+2025-03-06 05:12:10,502 - story_understanding - INFO - Preparing data for all_4dir dataset...
+2025-03-06 05:12:11,284 - story_understanding - INFO - Starting experiment: all_4dir_lstm_experiment at 2025-03-06 05:12:11
+2025-03-06 05:12:11,284 - story_understanding - INFO - Framework: lstm
+2025-03-06 05:12:11,284 - story_understanding - INFO - Dataset info:
+2025-03-06 05:12:11,284 - story_understanding - INFO -   name: all_4dir
+2025-03-06 05:12:11,284 - story_understanding - INFO -   train_size: 214
+2025-03-06 05:12:11,284 - story_understanding - INFO -   val_size: 761
+2025-03-06 05:12:11,284 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 05:12:11,284 - story_understanding - INFO -   validb_size: 305
+2025-03-06 05:12:11,284 - story_understanding - INFO -   test_size: 170
+2025-03-06 05:12:11,287 - story_understanding - INFO - Automatically found best model at: models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5
+2025-03-06 05:12:11,287 - story_understanding - INFO - Loading model from models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5...
+2025-03-06 05:12:11,840 - story_understanding - ERROR - Failed to load model: Cannot assign value to variable ' lstm/lstm_cell/kernel:0': Shape mismatch.The variable shape (64, 296), and the assigned value shape (64, 92) are incompatible.
+2025-03-06 05:29:04,848 - story_understanding - INFO - Preparing data for all_4dir dataset...
+2025-03-06 05:29:05,631 - story_understanding - INFO - Starting experiment: all_4dir_lstm_experiment at 2025-03-06 05:29:05
+2025-03-06 05:29:05,632 - story_understanding - INFO - Framework: lstm
+2025-03-06 05:29:05,632 - story_understanding - INFO - Dataset info:
+2025-03-06 05:29:05,632 - story_understanding - INFO -   name: all_4dir
+2025-03-06 05:29:05,632 - story_understanding - INFO -   train_size: 214
+2025-03-06 05:29:05,632 - story_understanding - INFO -   val_size: 761
+2025-03-06 05:29:05,632 - story_understanding - INFO -   vocab_size: 55
+2025-03-06 05:29:05,632 - story_understanding - INFO -   validb_size: 305
+2025-03-06 05:29:05,632 - story_understanding - INFO -   test_size: 170
+2025-03-06 05:29:05,634 - story_understanding - INFO - Automatically found best model at: models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5
+2025-03-06 05:29:05,635 - story_understanding - INFO - Loading model from models/training/2directional_lstm_ep40_hl23_do0.58_bs128_lr0.0000_acc0p7500.h5...
+2025-03-06 05:29:05,635 - story_understanding - INFO - Creating model with hyperparameters extracted from model filename
+2025-03-06 05:29:06,889 - story_understanding - INFO - Evaluating model on test set...
+2025-03-06 05:29:08,459 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.4941, Loss = 0.6938
+2025-03-06 05:29:08,459 - story_understanding - INFO - Done!

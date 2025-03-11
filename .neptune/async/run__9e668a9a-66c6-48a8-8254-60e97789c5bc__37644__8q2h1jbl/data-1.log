@@ -1,0 +1,11 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "all_2dir_transformer_training"}, "version": 1, "at": 1741632492.3372438}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741632492.337495}
+{"obj": {"type": "AssignString", "path": ["monitoring", "91238342", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741632492.3375628}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741632492.337609}
+{"obj": {"type": "AssignString", "path": ["monitoring", "91238342", "pid"], "value": "37644"}, "version": 5, "at": 1741632492.337653}
+{"obj": {"type": "AssignString", "path": ["monitoring", "91238342", "tid"], "value": "8071241408"}, "version": 6, "at": 1741632492.337694}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["training", "transformer", "all_2dir"]}, "version": 7, "at": 1741632492.3377779}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741632492.337837}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "all_2dir"}, "version": 9, "at": 1741632492.3428118}
+{"obj": {"type": "AssignString", "path": ["parameters", "framework"], "value": "transformer"}, "version": 10, "at": 1741632492.3428931}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "placeholder"], "values": [{"value": 0.0, "step": null, "ts": 1741632492.3520472}]}, "version": 11, "at": 1741632492.3520792}

@@ -1,0 +1,15 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "all_4dir_lstm_valb_evaluation"}, "version": 1, "at": 1741390512.892682}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1741390512.892919}
+{"obj": {"type": "AssignString", "path": ["monitoring", "07ce6be4", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 3, "at": 1741390512.8929899}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Katerinas-MacBook-Air.local"}, "version": 4, "at": 1741390512.8930361}
+{"obj": {"type": "AssignString", "path": ["monitoring", "07ce6be4", "pid"], "value": "13669"}, "version": 5, "at": 1741390512.893079}
+{"obj": {"type": "AssignString", "path": ["monitoring", "07ce6be4", "tid"], "value": "8071241408"}, "version": 6, "at": 1741390512.89312}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["lstm", "eval_valb", "all_4dir"]}, "version": 7, "at": 1741390512.893207}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1741390512.893253}
+{"obj": {"type": "AssignString", "path": ["parameters", "dataset"], "value": "all_4dir"}, "version": 9, "at": 1741390512.898038}
+{"obj": {"type": "AssignString", "path": ["parameters", "framework"], "value": "lstm"}, "version": 10, "at": 1741390512.89835}
+{"obj": {"type": "AssignString", "path": ["parameters", "eval_set"], "value": "valb"}, "version": 11, "at": 1741390512.899132}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "valb_loss"], "values": [{"value": 0.6962702870368958, "step": null, "ts": 1741390513.5903082}]}, "version": 12, "at": 1741390513.590346}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "valb_accuracy"], "values": [{"value": 0.3919999897480011, "step": null, "ts": 1741390513.5904791}]}, "version": 13, "at": 1741390513.5904908}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "valb_loss"], "values": [{"value": 0.6962702870368958, "step": null, "ts": 1741390513.5905762}]}, "version": 14, "at": 1741390513.5905862}
+{"obj": {"type": "LogFloats", "path": ["avg_metrics", "valb_accuracy"], "values": [{"value": 0.3919999897480011, "step": null, "ts": 1741390513.59076}]}, "version": 15, "at": 1741390513.5907788}

@@ -1,0 +1,898 @@
+2025-03-05 15:44:51,293 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 15:44:51,332 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 15:44:51
+2025-03-05 15:44:51,332 - story_understanding - INFO - Framework: transformer
+2025-03-05 15:44:51,332 - story_understanding - INFO - Dataset info:
+2025-03-05 15:44:51,332 - story_understanding - INFO -   name: 2directional
+2025-03-05 15:44:51,332 - story_understanding - INFO -   train_size: 100
+2025-03-05 15:44:51,332 - story_understanding - INFO -   val_size: 20
+2025-03-05 15:44:51,332 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 15:44:51,332 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 15:44:51,332 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 15:44:51,332 - story_understanding - INFO -   batch_size: 32
+2025-03-05 15:44:51,332 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 15:44:51,332 - story_understanding - INFO -   d_model: 256
+2025-03-05 15:44:51,332 - story_understanding - INFO -   d_hid: 569
+2025-03-05 15:44:51,332 - story_understanding - INFO -   nlayers: 4
+2025-03-05 15:44:51,332 - story_understanding - INFO -   nhead: 2
+2025-03-05 15:44:51,332 - story_understanding - INFO -   seed: 446
+2025-03-05 15:44:51,332 - story_understanding - INFO - ======================
+2025-03-05 15:44:51,332 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 15:44:52,176 - story_understanding - INFO - Creating model...
+2025-03-05 15:44:52,202 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 15:45:23,830 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 15:46:12,549 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 15:46:12
+2025-03-05 15:46:12,549 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 15:46:12,549 - story_understanding - INFO - Final metrics:
+2025-03-05 15:46:12,549 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 15:46:12,549 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 15:46:12,549 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 15:46:12,550 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 15:46:12,550 - story_understanding - INFO - Done!
+2025-03-05 16:03:57,012 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:03:57,057 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:03:57
+2025-03-05 16:03:57,057 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:03:57,057 - story_understanding - INFO - Dataset info:
+2025-03-05 16:03:57,057 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:03:57,057 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:03:57,057 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:03:57,057 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:03:57,058 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:03:57,058 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:03:57,058 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:03:57,058 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:03:57,058 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:03:57,058 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:03:57,058 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:03:57,058 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:03:57,058 - story_understanding - INFO -   seed: 446
+2025-03-05 16:03:57,058 - story_understanding - INFO - ======================
+2025-03-05 16:03:57,058 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:03:57,955 - story_understanding - INFO - Creating model...
+2025-03-05 16:03:57,983 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:04:38,916 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:05:21,959 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:05:21
+2025-03-05 16:05:21,959 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:05:21,959 - story_understanding - INFO - Final metrics:
+2025-03-05 16:05:21,959 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:05:21,960 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:05:21,960 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:05:21,960 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:05:21,960 - story_understanding - INFO - Done!
+2025-03-05 16:07:33,220 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:07:33,264 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:07:33
+2025-03-05 16:07:33,264 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:07:33,264 - story_understanding - INFO - Dataset info:
+2025-03-05 16:07:33,264 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:07:33,264 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:07:33,264 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:07:33,264 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:07:33,265 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:07:33,265 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:07:33,265 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:07:33,265 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:07:33,265 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:07:33,265 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:07:33,265 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:07:33,265 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:07:33,265 - story_understanding - INFO -   seed: 446
+2025-03-05 16:07:33,265 - story_understanding - INFO - ======================
+2025-03-05 16:07:33,265 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:07:34,142 - story_understanding - INFO - Creating model...
+2025-03-05 16:07:34,169 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:08:07,485 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:08:55,524 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:08:55
+2025-03-05 16:08:55,525 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:08:55,525 - story_understanding - INFO - Final metrics:
+2025-03-05 16:08:55,525 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:08:55,525 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:08:55,525 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:08:55,525 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:08:55,525 - story_understanding - INFO - Done!
+2025-03-05 16:16:14,557 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:16:14,596 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:16:14
+2025-03-05 16:16:14,596 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:16:14,596 - story_understanding - INFO - Dataset info:
+2025-03-05 16:16:14,596 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:16:14,597 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:16:14,597 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:16:14,597 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:16:14,597 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:16:14,597 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:16:14,597 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:16:14,597 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:16:14,597 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:16:14,597 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:16:14,597 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:16:14,597 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:16:14,597 - story_understanding - INFO -   seed: 446
+2025-03-05 16:16:14,597 - story_understanding - INFO - ======================
+2025-03-05 16:16:14,597 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:16:15,817 - story_understanding - INFO - Creating model...
+2025-03-05 16:16:15,827 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:16:47,484 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:17:38,128 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:17:38
+2025-03-05 16:17:38,129 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:17:38,129 - story_understanding - INFO - Final metrics:
+2025-03-05 16:17:38,129 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:17:38,129 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:17:38,129 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:17:38,129 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:17:38,129 - story_understanding - INFO - Done!
+2025-03-05 16:19:54,939 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:19:54,983 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:19:54
+2025-03-05 16:19:54,983 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:19:54,984 - story_understanding - INFO - Dataset info:
+2025-03-05 16:19:54,984 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:19:54,984 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:19:54,984 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:19:54,984 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:19:54,984 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:19:54,984 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:19:54,984 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:19:54,984 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:19:54,984 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:19:54,984 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:19:54,984 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:19:54,984 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:19:54,984 - story_understanding - INFO -   seed: 446
+2025-03-05 16:19:54,984 - story_understanding - INFO - ======================
+2025-03-05 16:19:54,984 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:19:56,018 - story_understanding - INFO - Creating model...
+2025-03-05 16:19:56,047 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:20:27,672 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:21:15,137 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:21:15
+2025-03-05 16:21:15,138 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:21:15,138 - story_understanding - INFO - Final metrics:
+2025-03-05 16:21:15,138 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:21:15,138 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:21:15,138 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:21:15,138 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:21:15,138 - story_understanding - INFO - Done!
+2025-03-05 16:27:34,672 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:27:34,713 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:27:34
+2025-03-05 16:27:34,713 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:27:34,713 - story_understanding - INFO - Dataset info:
+2025-03-05 16:27:34,713 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:27:34,713 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:27:34,713 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:27:34,713 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:27:34,713 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:27:34,713 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:27:34,713 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:27:34,713 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:27:34,713 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:27:34,713 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:27:34,713 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:27:34,713 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:27:34,713 - story_understanding - INFO -   seed: 446
+2025-03-05 16:27:34,713 - story_understanding - INFO - ======================
+2025-03-05 16:27:34,713 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:27:36,121 - story_understanding - INFO - Creating model...
+2025-03-05 16:27:36,137 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:28:07,456 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:28:58,929 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:28:58
+2025-03-05 16:28:58,930 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:28:58,930 - story_understanding - INFO - Final metrics:
+2025-03-05 16:28:58,930 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:28:58,930 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:28:58,930 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:28:58,930 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:28:58,930 - story_understanding - INFO - Done!
+2025-03-05 16:31:59,736 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:31:59,781 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:31:59
+2025-03-05 16:31:59,781 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:31:59,782 - story_understanding - INFO - Dataset info:
+2025-03-05 16:31:59,782 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:31:59,782 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:31:59,782 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:31:59,782 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:31:59,782 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:31:59,782 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:31:59,782 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:31:59,782 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:31:59,782 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:31:59,782 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:31:59,782 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:31:59,782 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:31:59,782 - story_understanding - INFO -   seed: 446
+2025-03-05 16:31:59,782 - story_understanding - INFO - ======================
+2025-03-05 16:31:59,782 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:32:00,952 - story_understanding - INFO - Creating model...
+2025-03-05 16:32:00,966 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:32:40,061 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:33:28,921 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:33:28
+2025-03-05 16:33:28,921 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:33:28,921 - story_understanding - INFO - Final metrics:
+2025-03-05 16:33:28,922 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:33:28,922 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:33:28,922 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:33:28,922 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:33:28,922 - story_understanding - INFO - Done!
+2025-03-05 16:38:17,038 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:38:17,082 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:38:17
+2025-03-05 16:38:17,082 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:38:17,082 - story_understanding - INFO - Dataset info:
+2025-03-05 16:38:17,082 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:38:17,082 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:38:17,082 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:38:17,082 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:38:17,082 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:38:17,082 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:38:17,082 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:38:17,082 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:38:17,082 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:38:17,082 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:38:17,082 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:38:17,082 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:38:17,082 - story_understanding - INFO -   seed: 446
+2025-03-05 16:38:17,082 - story_understanding - INFO - ======================
+2025-03-05 16:38:17,083 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:38:19,360 - story_understanding - INFO - Creating model...
+2025-03-05 16:38:19,388 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:38:50,801 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:39:42,147 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:39:42
+2025-03-05 16:39:42,148 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:39:42,148 - story_understanding - INFO - Final metrics:
+2025-03-05 16:39:42,148 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:39:42,148 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:39:42,148 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:39:42,148 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:39:42,148 - story_understanding - INFO - Done!
+2025-03-05 16:43:58,172 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 16:43:58,215 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 16:43:58
+2025-03-05 16:43:58,215 - story_understanding - INFO - Framework: transformer
+2025-03-05 16:43:58,215 - story_understanding - INFO - Dataset info:
+2025-03-05 16:43:58,215 - story_understanding - INFO -   name: 2directional
+2025-03-05 16:43:58,215 - story_understanding - INFO -   train_size: 100
+2025-03-05 16:43:58,215 - story_understanding - INFO -   val_size: 20
+2025-03-05 16:43:58,215 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 16:43:58,215 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 16:43:58,215 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 16:43:58,215 - story_understanding - INFO -   batch_size: 32
+2025-03-05 16:43:58,217 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 16:43:58,217 - story_understanding - INFO -   d_model: 256
+2025-03-05 16:43:58,217 - story_understanding - INFO -   d_hid: 569
+2025-03-05 16:43:58,217 - story_understanding - INFO -   nlayers: 4
+2025-03-05 16:43:58,217 - story_understanding - INFO -   nhead: 2
+2025-03-05 16:43:58,217 - story_understanding - INFO -   seed: 446
+2025-03-05 16:43:58,217 - story_understanding - INFO - ======================
+2025-03-05 16:43:58,217 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 16:43:59,171 - story_understanding - INFO - Creating model...
+2025-03-05 16:43:59,185 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 16:44:31,817 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 16:45:21,570 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 16:45:21
+2025-03-05 16:45:21,571 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 16:45:21,571 - story_understanding - INFO - Final metrics:
+2025-03-05 16:45:21,571 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 16:45:21,571 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 16:45:21,571 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 16:45:21,571 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 16:45:21,571 - story_understanding - INFO - Done!
+2025-03-05 18:02:00,351 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:02:00,397 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:02:00
+2025-03-05 18:02:00,397 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:02:00,397 - story_understanding - INFO - Dataset info:
+2025-03-05 18:02:00,397 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:02:00,397 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:02:00,397 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:02:00,397 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:02:00,397 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:02:00,397 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:02:00,397 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:02:00,397 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:02:00,397 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:02:00,397 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:02:00,397 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:02:00,397 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:02:00,397 - story_understanding - INFO -   seed: 446
+2025-03-05 18:02:00,397 - story_understanding - INFO - ======================
+2025-03-05 18:02:00,398 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:02:01,449 - story_understanding - INFO - Creating model...
+2025-03-05 18:02:01,483 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:02:41,316 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:03:19,807 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:03:19
+2025-03-05 18:03:19,808 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:03:19,808 - story_understanding - INFO - Final metrics:
+2025-03-05 18:03:19,808 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:03:19,808 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:03:19,808 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:03:19,808 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:03:19,808 - story_understanding - INFO - Done!
+2025-03-05 18:06:36,627 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:06:36,669 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:06:36
+2025-03-05 18:06:36,669 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:06:36,669 - story_understanding - INFO - Dataset info:
+2025-03-05 18:06:36,669 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:06:36,669 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:06:36,669 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:06:36,669 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:06:36,669 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:06:36,669 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:06:36,669 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:06:36,669 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:06:36,669 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:06:36,669 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:06:36,669 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:06:36,669 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:06:36,669 - story_understanding - INFO -   seed: 446
+2025-03-05 18:06:36,669 - story_understanding - INFO - ======================
+2025-03-05 18:06:36,670 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:06:37,540 - story_understanding - INFO - Creating model...
+2025-03-05 18:06:37,554 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:07:10,074 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:07:54,676 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:07:54
+2025-03-05 18:07:54,677 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:07:54,677 - story_understanding - INFO - Final metrics:
+2025-03-05 18:07:54,677 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:07:54,677 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:07:54,677 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:07:54,677 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:07:54,677 - story_understanding - INFO - Done!
+2025-03-05 18:11:37,538 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:11:37,583 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:11:37
+2025-03-05 18:11:37,583 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:11:37,583 - story_understanding - INFO - Dataset info:
+2025-03-05 18:11:37,583 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:11:37,583 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:11:37,583 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:11:37,583 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:11:37,583 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:11:37,583 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:11:37,583 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:11:37,583 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:11:37,583 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:11:37,584 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:11:37,584 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:11:37,584 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:11:37,584 - story_understanding - INFO -   seed: 446
+2025-03-05 18:11:37,584 - story_understanding - INFO - ======================
+2025-03-05 18:11:37,584 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:11:38,408 - story_understanding - INFO - Creating model...
+2025-03-05 18:11:38,421 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:12:10,225 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:12:56,222 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:12:56
+2025-03-05 18:12:56,222 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:12:56,222 - story_understanding - INFO - Final metrics:
+2025-03-05 18:12:56,223 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:12:56,223 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:12:56,223 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:12:56,223 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:12:56,223 - story_understanding - INFO - Done!
+2025-03-05 18:16:20,552 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:16:20,595 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:16:20
+2025-03-05 18:16:20,595 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:16:20,595 - story_understanding - INFO - Dataset info:
+2025-03-05 18:16:20,595 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:16:20,595 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:16:20,595 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:16:20,595 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:16:20,595 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:16:20,595 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:16:20,595 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:16:20,595 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:16:20,595 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:16:20,595 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:16:20,595 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:16:20,595 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:16:20,595 - story_understanding - INFO -   seed: 446
+2025-03-05 18:16:20,595 - story_understanding - INFO - ======================
+2025-03-05 18:16:20,596 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:16:21,505 - story_understanding - INFO - Creating model...
+2025-03-05 18:16:21,528 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:17:02,289 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:17:38,127 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:17:38
+2025-03-05 18:17:38,127 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:17:38,127 - story_understanding - INFO - Final metrics:
+2025-03-05 18:17:38,128 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:17:38,128 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:17:38,128 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:17:38,128 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:17:38,128 - story_understanding - INFO - Done!
+2025-03-05 18:20:15,201 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:20:15,249 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:20:15
+2025-03-05 18:20:15,249 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:20:15,249 - story_understanding - INFO - Dataset info:
+2025-03-05 18:20:15,249 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:20:15,249 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:20:15,249 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:20:15,249 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:20:15,249 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:20:15,249 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:20:15,249 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:20:15,249 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:20:15,250 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:20:15,250 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:20:15,250 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:20:15,250 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:20:15,250 - story_understanding - INFO -   seed: 446
+2025-03-05 18:20:15,250 - story_understanding - INFO - ======================
+2025-03-05 18:20:15,250 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:20:17,728 - story_understanding - INFO - Creating model...
+2025-03-05 18:20:17,754 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:20:57,458 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:21:35,083 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:21:35
+2025-03-05 18:21:35,083 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:21:35,083 - story_understanding - INFO - Final metrics:
+2025-03-05 18:21:35,083 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:21:35,083 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:21:35,083 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:21:35,083 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:21:35,083 - story_understanding - INFO - Done!
+2025-03-05 18:23:11,617 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:23:11,659 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:23:11
+2025-03-05 18:23:11,659 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:23:11,659 - story_understanding - INFO - Dataset info:
+2025-03-05 18:23:11,659 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:23:11,659 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:23:11,659 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:23:11,659 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:23:11,659 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:23:11,660 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:23:11,660 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:23:11,660 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:23:11,660 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:23:11,660 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:23:11,660 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:23:11,660 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:23:11,660 - story_understanding - INFO -   seed: 446
+2025-03-05 18:23:11,660 - story_understanding - INFO - ======================
+2025-03-05 18:23:11,660 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:23:12,509 - story_understanding - INFO - Creating model...
+2025-03-05 18:23:12,523 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:23:45,095 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:24:29,944 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:24:29
+2025-03-05 18:24:29,944 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:24:29,944 - story_understanding - INFO - Final metrics:
+2025-03-05 18:24:29,944 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:24:29,944 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:24:29,944 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:24:29,945 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:24:29,945 - story_understanding - INFO - Done!
+2025-03-05 18:29:47,631 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:29:47,679 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:29:47
+2025-03-05 18:29:47,679 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:29:47,679 - story_understanding - INFO - Dataset info:
+2025-03-05 18:29:47,679 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:29:47,679 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:29:47,679 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:29:47,679 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:29:47,679 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:29:47,679 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:29:47,679 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:29:47,679 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:29:47,679 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:29:47,679 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:29:47,679 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:29:47,679 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:29:47,679 - story_understanding - INFO -   seed: 446
+2025-03-05 18:29:47,679 - story_understanding - INFO - ======================
+2025-03-05 18:29:47,680 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:29:48,551 - story_understanding - INFO - Creating model...
+2025-03-05 18:29:48,578 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:30:21,974 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:31:05,396 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:31:05
+2025-03-05 18:31:05,396 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:31:05,396 - story_understanding - INFO - Final metrics:
+2025-03-05 18:31:05,396 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:31:05,396 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:31:05,397 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:31:05,397 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:31:05,397 - story_understanding - INFO - Done!
+2025-03-05 18:34:06,465 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:34:06,596 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:34:06
+2025-03-05 18:34:06,596 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:34:06,596 - story_understanding - INFO - Dataset info:
+2025-03-05 18:34:06,596 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:34:06,596 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:34:06,596 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:34:06,596 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:34:06,596 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:34:06,596 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:34:06,597 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:34:06,597 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:34:06,597 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:34:06,597 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:34:06,597 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:34:06,597 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:34:06,597 - story_understanding - INFO -   seed: 446
+2025-03-05 18:34:06,597 - story_understanding - INFO - ======================
+2025-03-05 18:34:06,597 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:34:07,473 - story_understanding - INFO - Creating model...
+2025-03-05 18:34:07,489 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:34:41,004 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:35:23,759 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:35:23
+2025-03-05 18:35:23,759 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:35:23,759 - story_understanding - INFO - Final metrics:
+2025-03-05 18:35:23,759 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:35:23,759 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:35:23,759 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:35:23,759 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:35:23,759 - story_understanding - INFO - Done!
+2025-03-05 18:47:53,741 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:47:53,795 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:47:53
+2025-03-05 18:47:53,796 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:47:53,796 - story_understanding - INFO - Dataset info:
+2025-03-05 18:47:53,796 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:47:53,796 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:47:53,796 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:47:53,796 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:47:53,796 - story_understanding - INFO -   validb_size: 10
+2025-03-05 18:47:53,796 - story_understanding - INFO -   test_size: 10
+2025-03-05 18:47:53,798 - story_understanding - INFO - Automatically found best model at: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:47:53,798 - story_understanding - INFO - Loading model from models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt...
+2025-03-05 18:47:54,934 - story_understanding - INFO - Evaluating model on validation set...
+2025-03-05 18:47:55,393 - story_understanding - INFO - Evaluation results on validation set: Accuracy = 0.7000, Loss = 0.6095
+2025-03-05 18:47:55,393 - story_understanding - INFO - Done!
+2025-03-05 18:48:36,321 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:48:36,367 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:48:36
+2025-03-05 18:48:36,367 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:48:36,367 - story_understanding - INFO - Dataset info:
+2025-03-05 18:48:36,367 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:48:36,367 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:48:36,367 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:48:36,367 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:48:36,367 - story_understanding - INFO -   validb_size: 10
+2025-03-05 18:48:36,367 - story_understanding - INFO -   test_size: 10
+2025-03-05 18:48:36,368 - story_understanding - INFO - Automatically found best model at: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:48:36,368 - story_understanding - INFO - Loading model from models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt...
+2025-03-05 18:48:37,363 - story_understanding - INFO - Evaluating model on test set...
+2025-03-05 18:48:37,812 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.5000, Loss = 0.7646
+2025-03-05 18:48:37,812 - story_understanding - INFO - Done!
+2025-03-05 18:51:04,781 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:51:04,830 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:51:04
+2025-03-05 18:51:04,830 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:51:04,830 - story_understanding - INFO - Dataset info:
+2025-03-05 18:51:04,830 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:51:04,830 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:51:04,830 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:51:04,830 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:51:04,830 - story_understanding - INFO -   validb_size: 10
+2025-03-05 18:51:04,830 - story_understanding - INFO -   test_size: 10
+2025-03-05 18:51:04,830 - story_understanding - INFO - Using user-specified model from: 2directional_transformer_model_SIM-11541_epoch_09.pt
+2025-03-05 18:51:04,830 - story_understanding - INFO - Loading model from 2directional_transformer_model_SIM-11541_epoch_09.pt...
+2025-03-05 18:51:04,840 - story_understanding - ERROR - Failed to load model: [Errno 2] No such file or directory: '2directional_transformer_model_SIM-11541_epoch_09.pt'
+2025-03-05 18:51:21,607 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:51:21,652 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:51:21
+2025-03-05 18:51:21,652 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:51:21,652 - story_understanding - INFO - Dataset info:
+2025-03-05 18:51:21,652 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:51:21,652 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:51:21,652 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:51:21,652 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:51:21,652 - story_understanding - INFO -   validb_size: 10
+2025-03-05 18:51:21,652 - story_understanding - INFO -   test_size: 10
+2025-03-05 18:51:21,652 - story_understanding - INFO - Using user-specified model from: /Users/katerina__saiti/Downloads/4.2/following_qa/models/raw/2directional_transformer_model_SIM-11541_epoch_09.pt
+2025-03-05 18:51:21,652 - story_understanding - INFO - Loading model from /Users/katerina__saiti/Downloads/4.2/following_qa/models/raw/2directional_transformer_model_SIM-11541_epoch_09.pt...
+2025-03-05 18:51:22,690 - story_understanding - INFO - Evaluating model on test set...
+2025-03-05 18:51:23,118 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.7000, Loss = 1.1096
+2025-03-05 18:51:23,118 - story_understanding - INFO - Done!
+2025-03-05 18:57:12,562 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 18:57:12,606 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 18:57:12
+2025-03-05 18:57:12,606 - story_understanding - INFO - Framework: transformer
+2025-03-05 18:57:12,606 - story_understanding - INFO - Dataset info:
+2025-03-05 18:57:12,606 - story_understanding - INFO -   name: 2directional
+2025-03-05 18:57:12,606 - story_understanding - INFO -   train_size: 100
+2025-03-05 18:57:12,606 - story_understanding - INFO -   val_size: 20
+2025-03-05 18:57:12,606 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 18:57:12,606 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 18:57:12,606 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 18:57:12,606 - story_understanding - INFO -   batch_size: 32
+2025-03-05 18:57:12,606 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 18:57:12,606 - story_understanding - INFO -   d_model: 256
+2025-03-05 18:57:12,606 - story_understanding - INFO -   d_hid: 569
+2025-03-05 18:57:12,606 - story_understanding - INFO -   nlayers: 4
+2025-03-05 18:57:12,606 - story_understanding - INFO -   nhead: 2
+2025-03-05 18:57:12,606 - story_understanding - INFO -   seed: 446
+2025-03-05 18:57:12,606 - story_understanding - INFO - ======================
+2025-03-05 18:57:12,606 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 18:57:13,460 - story_understanding - INFO - Creating model...
+2025-03-05 18:57:13,487 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 18:57:48,091 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 18:58:29,911 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 18:58:29
+2025-03-05 18:58:29,912 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 18:58:29,912 - story_understanding - INFO - Final metrics:
+2025-03-05 18:58:29,912 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 18:58:29,912 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 18:58:29,912 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 18:58:29,912 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 18:58:29,912 - story_understanding - INFO - Done!
+2025-03-05 19:03:30,535 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 19:03:30,574 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 19:03:30
+2025-03-05 19:03:30,574 - story_understanding - INFO - Framework: transformer
+2025-03-05 19:03:30,574 - story_understanding - INFO - Dataset info:
+2025-03-05 19:03:30,574 - story_understanding - INFO -   name: 2directional
+2025-03-05 19:03:30,574 - story_understanding - INFO -   train_size: 100
+2025-03-05 19:03:30,574 - story_understanding - INFO -   val_size: 20
+2025-03-05 19:03:30,574 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 19:03:30,574 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 19:03:30,574 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 19:03:30,574 - story_understanding - INFO -   batch_size: 32
+2025-03-05 19:03:30,575 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 19:03:30,575 - story_understanding - INFO -   d_model: 256
+2025-03-05 19:03:30,575 - story_understanding - INFO -   d_hid: 569
+2025-03-05 19:03:30,575 - story_understanding - INFO -   nlayers: 4
+2025-03-05 19:03:30,575 - story_understanding - INFO -   nhead: 2
+2025-03-05 19:03:30,575 - story_understanding - INFO -   seed: 446
+2025-03-05 19:03:30,575 - story_understanding - INFO - ======================
+2025-03-05 19:03:30,575 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 19:03:31,387 - story_understanding - INFO - Creating model...
+2025-03-05 19:03:31,405 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 19:04:04,902 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 19:04:47,726 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 19:04:47
+2025-03-05 19:04:47,726 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 19:04:47,726 - story_understanding - INFO - Final metrics:
+2025-03-05 19:04:47,726 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 19:04:47,726 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 19:04:47,727 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 19:04:47,727 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 19:04:47,727 - story_understanding - INFO - Done!
+2025-03-05 23:09:49,868 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 23:09:49,915 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 23:09:49
+2025-03-05 23:09:49,915 - story_understanding - INFO - Framework: transformer
+2025-03-05 23:09:49,915 - story_understanding - INFO - Dataset info:
+2025-03-05 23:09:49,915 - story_understanding - INFO -   name: 2directional
+2025-03-05 23:09:49,915 - story_understanding - INFO -   train_size: 100
+2025-03-05 23:09:49,915 - story_understanding - INFO -   val_size: 20
+2025-03-05 23:09:49,915 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 23:09:49,915 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 23:09:49,915 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 23:09:49,915 - story_understanding - INFO -   batch_size: 32
+2025-03-05 23:09:49,915 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 23:09:49,915 - story_understanding - INFO -   d_model: 256
+2025-03-05 23:09:49,915 - story_understanding - INFO -   d_hid: 569
+2025-03-05 23:09:49,915 - story_understanding - INFO -   nlayers: 4
+2025-03-05 23:09:49,915 - story_understanding - INFO -   nhead: 2
+2025-03-05 23:09:49,915 - story_understanding - INFO -   seed: 446
+2025-03-05 23:09:49,915 - story_understanding - INFO - ======================
+2025-03-05 23:09:49,915 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 23:09:50,772 - story_understanding - INFO - Creating model...
+2025-03-05 23:09:50,798 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 23:10:29,344 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep00_dm256_nl4_do0.41_bs32_lr0.0001_acc0p7000.pt
+2025-03-05 23:10:30,772 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 23:10:30
+2025-03-05 23:10:30,772 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-05 23:10:30,772 - story_understanding - INFO - Final metrics:
+2025-03-05 23:10:30,772 - story_understanding - INFO -   train_loss (final): 0.7964
+2025-03-05 23:10:30,772 - story_understanding - INFO -   train_accuracy (final): 0.5800
+2025-03-05 23:10:30,772 - story_understanding - INFO -   val_loss (final): 1.0374
+2025-03-05 23:10:30,773 - story_understanding - INFO -   val_accuracy (final): 0.6000
+2025-03-05 23:10:30,773 - story_understanding - INFO - Done!
+2025-03-05 23:19:01,375 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 23:19:01,436 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 23:19:01
+2025-03-05 23:19:01,436 - story_understanding - INFO - Framework: transformer
+2025-03-05 23:19:01,436 - story_understanding - INFO - Dataset info:
+2025-03-05 23:19:01,437 - story_understanding - INFO -   name: 2directional
+2025-03-05 23:19:01,437 - story_understanding - INFO -   train_size: 100
+2025-03-05 23:19:01,437 - story_understanding - INFO -   val_size: 40
+2025-03-05 23:19:01,437 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 23:19:01,437 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 23:19:01,437 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 23:19:01,437 - story_understanding - INFO -   batch_size: 32
+2025-03-05 23:19:01,437 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 23:19:01,437 - story_understanding - INFO -   d_model: 256
+2025-03-05 23:19:01,437 - story_understanding - INFO -   d_hid: 569
+2025-03-05 23:19:01,437 - story_understanding - INFO -   nlayers: 4
+2025-03-05 23:19:01,437 - story_understanding - INFO -   nhead: 2
+2025-03-05 23:19:01,437 - story_understanding - INFO -   seed: 446
+2025-03-05 23:19:01,437 - story_understanding - INFO - ======================
+2025-03-05 23:19:01,438 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 23:19:02,976 - story_understanding - INFO - Creating model...
+2025-03-05 23:19:03,003 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 23:19:53,555 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-05 23:19:58,082 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 23:19:58
+2025-03-05 23:19:58,082 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-05 23:19:58,082 - story_understanding - INFO - Final metrics:
+2025-03-05 23:19:58,082 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-05 23:19:58,082 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-05 23:19:58,082 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-05 23:19:58,082 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-05 23:19:58,082 - story_understanding - INFO - Done!
+2025-03-05 23:21:34,874 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 23:21:34,925 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 23:21:34
+2025-03-05 23:21:34,925 - story_understanding - INFO - Framework: transformer
+2025-03-05 23:21:34,925 - story_understanding - INFO - Dataset info:
+2025-03-05 23:21:34,925 - story_understanding - INFO -   name: 2directional
+2025-03-05 23:21:34,925 - story_understanding - INFO -   train_size: 100
+2025-03-05 23:21:34,925 - story_understanding - INFO -   val_size: 40
+2025-03-05 23:21:34,925 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 23:21:34,925 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 23:21:34,925 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 23:21:34,926 - story_understanding - INFO -   batch_size: 32
+2025-03-05 23:21:34,926 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 23:21:34,926 - story_understanding - INFO -   d_model: 256
+2025-03-05 23:21:34,926 - story_understanding - INFO -   d_hid: 569
+2025-03-05 23:21:34,926 - story_understanding - INFO -   nlayers: 4
+2025-03-05 23:21:34,926 - story_understanding - INFO -   nhead: 2
+2025-03-05 23:21:34,926 - story_understanding - INFO -   seed: 446
+2025-03-05 23:21:34,926 - story_understanding - INFO - ======================
+2025-03-05 23:21:34,926 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 23:21:35,730 - story_understanding - INFO - Creating model...
+2025-03-05 23:21:35,757 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 23:22:15,223 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-05 23:22:19,710 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 23:22:19
+2025-03-05 23:22:19,710 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-05 23:22:19,710 - story_understanding - INFO - Final metrics:
+2025-03-05 23:22:19,710 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-05 23:22:19,710 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-05 23:22:19,710 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-05 23:22:19,710 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-05 23:22:19,710 - story_understanding - INFO - Done!
+2025-03-05 23:38:02,608 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 23:38:02,660 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 23:38:02
+2025-03-05 23:38:02,660 - story_understanding - INFO - Framework: transformer
+2025-03-05 23:38:02,660 - story_understanding - INFO - Dataset info:
+2025-03-05 23:38:02,660 - story_understanding - INFO -   name: 2directional
+2025-03-05 23:38:02,660 - story_understanding - INFO -   train_size: 100
+2025-03-05 23:38:02,660 - story_understanding - INFO -   val_size: 40
+2025-03-05 23:38:02,660 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 23:38:02,660 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 23:38:02,660 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 23:38:02,660 - story_understanding - INFO -   batch_size: 32
+2025-03-05 23:38:02,660 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 23:38:02,660 - story_understanding - INFO -   d_model: 256
+2025-03-05 23:38:02,660 - story_understanding - INFO -   d_hid: 569
+2025-03-05 23:38:02,661 - story_understanding - INFO -   nlayers: 4
+2025-03-05 23:38:02,661 - story_understanding - INFO -   nhead: 2
+2025-03-05 23:38:02,661 - story_understanding - INFO -   seed: 446
+2025-03-05 23:38:02,661 - story_understanding - INFO - ======================
+2025-03-05 23:38:02,661 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 23:38:03,554 - story_understanding - INFO - Creating model...
+2025-03-05 23:38:03,581 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 23:38:39,162 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-05 23:38:42,041 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 23:38:42
+2025-03-05 23:38:42,041 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-05 23:38:42,041 - story_understanding - INFO - Final metrics:
+2025-03-05 23:38:42,041 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-05 23:38:42,041 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-05 23:38:42,041 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-05 23:38:42,041 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-05 23:38:42,041 - story_understanding - INFO - Done!
+2025-03-05 23:49:57,242 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 23:49:57,294 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 23:49:57
+2025-03-05 23:49:57,294 - story_understanding - INFO - Framework: transformer
+2025-03-05 23:49:57,294 - story_understanding - INFO - Dataset info:
+2025-03-05 23:49:57,294 - story_understanding - INFO -   name: 2directional
+2025-03-05 23:49:57,294 - story_understanding - INFO -   train_size: 100
+2025-03-05 23:49:57,294 - story_understanding - INFO -   val_size: 40
+2025-03-05 23:49:57,294 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 23:49:57,294 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 23:49:57,294 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 23:49:57,294 - story_understanding - INFO -   batch_size: 32
+2025-03-05 23:49:57,294 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 23:49:57,294 - story_understanding - INFO -   d_model: 256
+2025-03-05 23:49:57,294 - story_understanding - INFO -   d_hid: 569
+2025-03-05 23:49:57,294 - story_understanding - INFO -   nlayers: 4
+2025-03-05 23:49:57,294 - story_understanding - INFO -   nhead: 2
+2025-03-05 23:49:57,294 - story_understanding - INFO -   seed: 446
+2025-03-05 23:49:57,294 - story_understanding - INFO - ======================
+2025-03-05 23:49:57,294 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 23:49:58,114 - story_understanding - INFO - Creating model...
+2025-03-05 23:49:58,141 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 23:50:36,561 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-05 23:50:40,006 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 23:50:40
+2025-03-05 23:50:40,006 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-05 23:50:40,006 - story_understanding - INFO - Final metrics:
+2025-03-05 23:50:40,006 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-05 23:50:40,006 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-05 23:50:40,006 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-05 23:50:40,006 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-05 23:50:40,006 - story_understanding - INFO - Done!
+2025-03-05 23:51:31,656 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-05 23:51:31,699 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-05 23:51:31
+2025-03-05 23:51:31,699 - story_understanding - INFO - Framework: transformer
+2025-03-05 23:51:31,699 - story_understanding - INFO - Dataset info:
+2025-03-05 23:51:31,699 - story_understanding - INFO -   name: 2directional
+2025-03-05 23:51:31,699 - story_understanding - INFO -   train_size: 100
+2025-03-05 23:51:31,700 - story_understanding - INFO -   val_size: 40
+2025-03-05 23:51:31,700 - story_understanding - INFO -   vocab_size: 48
+2025-03-05 23:51:31,700 - story_understanding - INFO - === Hyperparameters ===
+2025-03-05 23:51:31,700 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-05 23:51:31,700 - story_understanding - INFO -   batch_size: 32
+2025-03-05 23:51:31,700 - story_understanding - INFO -   dropout: 0.413
+2025-03-05 23:51:31,700 - story_understanding - INFO -   d_model: 256
+2025-03-05 23:51:31,700 - story_understanding - INFO -   d_hid: 569
+2025-03-05 23:51:31,700 - story_understanding - INFO -   nlayers: 4
+2025-03-05 23:51:31,700 - story_understanding - INFO -   nhead: 2
+2025-03-05 23:51:31,700 - story_understanding - INFO -   seed: 446
+2025-03-05 23:51:31,700 - story_understanding - INFO - ======================
+2025-03-05 23:51:31,700 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-05 23:51:32,977 - story_understanding - INFO - Creating model...
+2025-03-05 23:51:32,988 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-05 23:52:10,909 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-05 23:52:14,034 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-05 23:52:14
+2025-03-05 23:52:14,034 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-05 23:52:14,034 - story_understanding - INFO - Final metrics:
+2025-03-05 23:52:14,034 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-05 23:52:14,034 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-05 23:52:14,034 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-05 23:52:14,034 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-05 23:52:14,034 - story_understanding - INFO - Done!
+2025-03-06 00:00:18,099 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-06 00:00:18,150 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-06 00:00:18
+2025-03-06 00:00:18,150 - story_understanding - INFO - Framework: transformer
+2025-03-06 00:00:18,150 - story_understanding - INFO - Dataset info:
+2025-03-06 00:00:18,150 - story_understanding - INFO -   name: 2directional
+2025-03-06 00:00:18,150 - story_understanding - INFO -   train_size: 100
+2025-03-06 00:00:18,150 - story_understanding - INFO -   val_size: 40
+2025-03-06 00:00:18,150 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 00:00:18,150 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 00:00:18,150 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 00:00:18,150 - story_understanding - INFO -   batch_size: 32
+2025-03-06 00:00:18,150 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 00:00:18,150 - story_understanding - INFO -   d_model: 256
+2025-03-06 00:00:18,150 - story_understanding - INFO -   d_hid: 569
+2025-03-06 00:00:18,150 - story_understanding - INFO -   nlayers: 4
+2025-03-06 00:00:18,150 - story_understanding - INFO -   nhead: 2
+2025-03-06 00:00:18,150 - story_understanding - INFO -   seed: 446
+2025-03-06 00:00:18,150 - story_understanding - INFO - ======================
+2025-03-06 00:00:18,150 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 00:00:20,665 - story_understanding - INFO - Creating model...
+2025-03-06 00:00:20,688 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-06 00:00:58,710 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-06 00:01:01,497 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-06 00:01:01
+2025-03-06 00:01:01,497 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-06 00:01:01,497 - story_understanding - INFO - Final metrics:
+2025-03-06 00:01:01,498 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-06 00:01:01,498 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-06 00:01:01,498 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-06 00:01:01,498 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-06 00:01:01,498 - story_understanding - INFO - Done!
+2025-03-06 00:14:57,410 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-06 00:14:57,457 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-06 00:14:57
+2025-03-06 00:14:57,457 - story_understanding - INFO - Framework: transformer
+2025-03-06 00:14:57,458 - story_understanding - INFO - Dataset info:
+2025-03-06 00:14:57,458 - story_understanding - INFO -   name: 2directional
+2025-03-06 00:14:57,458 - story_understanding - INFO -   train_size: 100
+2025-03-06 00:14:57,458 - story_understanding - INFO -   val_size: 40
+2025-03-06 00:14:57,458 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 00:14:57,458 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 00:14:57,458 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 00:14:57,458 - story_understanding - INFO -   batch_size: 32
+2025-03-06 00:14:57,458 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 00:14:57,458 - story_understanding - INFO -   d_model: 256
+2025-03-06 00:14:57,458 - story_understanding - INFO -   d_hid: 569
+2025-03-06 00:14:57,458 - story_understanding - INFO -   nlayers: 4
+2025-03-06 00:14:57,458 - story_understanding - INFO -   nhead: 2
+2025-03-06 00:14:57,458 - story_understanding - INFO -   seed: 446
+2025-03-06 00:14:57,458 - story_understanding - INFO - ======================
+2025-03-06 00:14:57,458 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 00:14:58,320 - story_understanding - INFO - Creating model...
+2025-03-06 00:14:58,346 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-06 00:15:43,949 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-06 00:15:46,896 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-06 00:15:46
+2025-03-06 00:15:46,896 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-06 00:15:46,896 - story_understanding - INFO - Final metrics:
+2025-03-06 00:15:46,896 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-06 00:15:46,896 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-06 00:15:46,896 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-06 00:15:46,896 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-06 00:15:46,896 - story_understanding - INFO - Done!
+2025-03-06 00:19:26,534 - story_understanding - INFO - Preparing data for 2directional dataset...
+2025-03-06 00:19:26,602 - story_understanding - INFO - Starting experiment: 2directional_transformer_experiment at 2025-03-06 00:19:26
+2025-03-06 00:19:26,602 - story_understanding - INFO - Framework: transformer
+2025-03-06 00:19:26,602 - story_understanding - INFO - Dataset info:
+2025-03-06 00:19:26,602 - story_understanding - INFO -   name: 2directional
+2025-03-06 00:19:26,602 - story_understanding - INFO -   train_size: 100
+2025-03-06 00:19:26,602 - story_understanding - INFO -   val_size: 40
+2025-03-06 00:19:26,602 - story_understanding - INFO -   vocab_size: 48
+2025-03-06 00:19:26,602 - story_understanding - INFO - === Hyperparameters ===
+2025-03-06 00:19:26,602 - story_understanding - INFO -   learning_rate: 0.00014
+2025-03-06 00:19:26,602 - story_understanding - INFO -   batch_size: 32
+2025-03-06 00:19:26,602 - story_understanding - INFO -   dropout: 0.413
+2025-03-06 00:19:26,602 - story_understanding - INFO -   d_model: 256
+2025-03-06 00:19:26,602 - story_understanding - INFO -   d_hid: 569
+2025-03-06 00:19:26,602 - story_understanding - INFO -   nlayers: 4
+2025-03-06 00:19:26,602 - story_understanding - INFO -   nhead: 2
+2025-03-06 00:19:26,602 - story_understanding - INFO -   seed: 446
+2025-03-06 00:19:26,602 - story_understanding - INFO - ======================
+2025-03-06 00:19:26,602 - story_understanding - INFO - Using hyperparameter-specified seed: 446
+2025-03-06 00:19:27,461 - story_understanding - INFO - Creating model...
+2025-03-06 00:19:27,485 - story_understanding - INFO - Training model on 2directional dataset...
+2025-03-06 00:20:07,045 - story_understanding - INFO - Best model saved to: models/training/2directional_transformer_ep17_dm256_nl4_do0.41_bs32_lr0.0001_acc0p6750.pt
+2025-03-06 00:20:09,149 - story_understanding - INFO - Completed experiment: 2directional_transformer_training at 2025-03-06 00:20:09
+2025-03-06 00:20:09,149 - story_understanding - INFO - Best validation accuracy: 0.6750
+2025-03-06 00:20:09,149 - story_understanding - INFO - Final metrics:
+2025-03-06 00:20:09,149 - story_understanding - INFO -   train_loss (final): 0.7836
+2025-03-06 00:20:09,149 - story_understanding - INFO -   train_accuracy (final): 0.5700
+2025-03-06 00:20:09,150 - story_understanding - INFO -   val_loss (final): 0.7722
+2025-03-06 00:20:09,150 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-06 00:20:09,150 - story_understanding - INFO - Done!

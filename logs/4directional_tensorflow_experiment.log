@@ -1,0 +1,142 @@
+2025-03-03 21:46:16,690 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:05:35,015 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:10:07,569 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:10:07,578 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-03 23:10:07
+2025-03-03 23:10:07,578 - story_understanding - INFO - Framework: tensorflow
+2025-03-03 23:10:07,578 - story_understanding - INFO - Dataset info:
+2025-03-03 23:10:07,578 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:10:07,578 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:10:07,579 - story_understanding - INFO -   val_size: 2
+2025-03-03 23:10:07,579 - story_understanding - INFO -   vocab_size: 55
+2025-03-03 23:10:07,579 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:10:07,579 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-03 23:10:07,579 - story_understanding - INFO -   batch_size: 64
+2025-03-03 23:10:07,579 - story_understanding - INFO -   dropout: 0.38
+2025-03-03 23:10:07,579 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-03 23:10:07,579 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-03 23:10:07,579 - story_understanding - INFO -   hidden_layers: 134
+2025-03-03 23:10:07,579 - story_understanding - INFO - ======================
+2025-03-03 23:10:08,863 - story_understanding - INFO - Creating model...
+2025-03-03 23:10:09,440 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-03 23:11:25,257 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:11:25,268 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-03 23:11:25
+2025-03-03 23:11:25,268 - story_understanding - INFO - Framework: tensorflow
+2025-03-03 23:11:25,268 - story_understanding - INFO - Dataset info:
+2025-03-03 23:11:25,268 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:11:25,268 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:11:25,268 - story_understanding - INFO -   val_size: 2
+2025-03-03 23:11:25,268 - story_understanding - INFO -   vocab_size: 55
+2025-03-03 23:11:25,268 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:11:25,268 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-03 23:11:25,268 - story_understanding - INFO -   batch_size: 64
+2025-03-03 23:11:25,268 - story_understanding - INFO -   dropout: 0.38
+2025-03-03 23:11:25,268 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-03 23:11:25,268 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-03 23:11:25,268 - story_understanding - INFO -   hidden_layers: 134
+2025-03-03 23:11:25,268 - story_understanding - INFO - ======================
+2025-03-03 23:11:26,953 - story_understanding - INFO - Creating model...
+2025-03-03 23:11:27,573 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-03 23:12:32,760 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:12:32,768 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-03 23:12:32
+2025-03-03 23:12:32,768 - story_understanding - INFO - Framework: tensorflow
+2025-03-03 23:12:32,768 - story_understanding - INFO - Dataset info:
+2025-03-03 23:12:32,768 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:12:32,769 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:12:32,769 - story_understanding - INFO -   val_size: 2
+2025-03-03 23:12:32,769 - story_understanding - INFO -   vocab_size: 55
+2025-03-03 23:12:32,769 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:12:32,769 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-03 23:12:32,769 - story_understanding - INFO -   batch_size: 64
+2025-03-03 23:12:32,769 - story_understanding - INFO -   dropout: 0.38
+2025-03-03 23:12:32,769 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-03 23:12:32,769 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-03 23:12:32,769 - story_understanding - INFO -   hidden_layers: 134
+2025-03-03 23:12:32,769 - story_understanding - INFO - ======================
+2025-03-03 23:12:33,639 - story_understanding - INFO - Creating model...
+2025-03-03 23:12:34,118 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-03 23:13:32,118 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:14:29,961 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:14:29,969 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-03 23:14:29
+2025-03-03 23:14:29,969 - story_understanding - INFO - Framework: tensorflow
+2025-03-03 23:14:29,969 - story_understanding - INFO - Dataset info:
+2025-03-03 23:14:29,969 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:14:29,969 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:14:29,969 - story_understanding - INFO -   val_size: 3
+2025-03-03 23:14:29,969 - story_understanding - INFO -   vocab_size: 55
+2025-03-03 23:14:29,969 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:14:29,969 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-03 23:14:29,969 - story_understanding - INFO -   batch_size: 64
+2025-03-03 23:14:29,969 - story_understanding - INFO -   dropout: 0.38
+2025-03-03 23:14:29,969 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-03 23:14:29,969 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-03 23:14:29,969 - story_understanding - INFO -   hidden_layers: 134
+2025-03-03 23:14:29,969 - story_understanding - INFO - ======================
+2025-03-03 23:14:32,166 - story_understanding - INFO - Creating model...
+2025-03-03 23:14:32,652 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-03 23:18:16,199 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-03 23:18:16,208 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-03 23:18:16
+2025-03-03 23:18:16,208 - story_understanding - INFO - Framework: tensorflow
+2025-03-03 23:18:16,208 - story_understanding - INFO - Dataset info:
+2025-03-03 23:18:16,208 - story_understanding - INFO -   name: 4directional
+2025-03-03 23:18:16,208 - story_understanding - INFO -   train_size: 4
+2025-03-03 23:18:16,208 - story_understanding - INFO -   val_size: 3
+2025-03-03 23:18:16,208 - story_understanding - INFO -   vocab_size: 55
+2025-03-03 23:18:16,208 - story_understanding - INFO - === Hyperparameters ===
+2025-03-03 23:18:16,209 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-03 23:18:16,209 - story_understanding - INFO -   batch_size: 64
+2025-03-03 23:18:16,209 - story_understanding - INFO -   dropout: 0.38
+2025-03-03 23:18:16,209 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-03 23:18:16,209 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-03 23:18:16,209 - story_understanding - INFO -   hidden_layers: 134
+2025-03-03 23:18:16,209 - story_understanding - INFO - ======================
+2025-03-03 23:18:17,020 - story_understanding - INFO - Creating model...
+2025-03-03 23:18:17,500 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-03 23:18:41,900 - story_understanding - INFO - Completed experiment: 4directional_tensorflow_training at 2025-03-03 23:18:41
+2025-03-03 23:18:41,901 - story_understanding - INFO - Best validation accuracy: 0.6667
+2025-03-03 23:18:41,901 - story_understanding - INFO - Final metrics:
+2025-03-03 23:18:41,901 - story_understanding - INFO -   loss (final): 0.6485
+2025-03-03 23:18:41,901 - story_understanding - INFO -   accuracy (final): 1.0000
+2025-03-03 23:18:41,901 - story_understanding - INFO -   val_loss (final): 0.6904
+2025-03-03 23:18:41,901 - story_understanding - INFO -   val_accuracy (final): 0.6667
+2025-03-03 23:18:41,901 - story_understanding - INFO - Done!
+2025-03-04 18:51:12,517 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:51:12,552 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-04 18:51:12
+2025-03-04 18:51:12,552 - story_understanding - INFO - Framework: tensorflow
+2025-03-04 18:51:12,552 - story_understanding - INFO - Dataset info:
+2025-03-04 18:51:12,552 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:51:12,552 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:51:12,552 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:51:12,552 - story_understanding - INFO -   vocab_size: 55
+2025-03-04 18:51:12,552 - story_understanding - INFO - === Hyperparameters ===
+2025-03-04 18:51:12,552 - story_understanding - INFO -   learning_rate: 8e-05
+2025-03-04 18:51:12,552 - story_understanding - INFO -   batch_size: 64
+2025-03-04 18:51:12,552 - story_understanding - INFO -   dropout: 0.38
+2025-03-04 18:51:12,552 - story_understanding - INFO -   l1_regul: 8e-05
+2025-03-04 18:51:12,552 - story_understanding - INFO -   l2_regul: 8e-05
+2025-03-04 18:51:12,552 - story_understanding - INFO -   hidden_layers: 134
+2025-03-04 18:51:12,552 - story_understanding - INFO - ======================
+2025-03-04 18:51:15,207 - story_understanding - INFO - Creating model...
+2025-03-04 18:51:15,726 - story_understanding - INFO - Training model on 4directional dataset...
+2025-03-04 18:53:12,863 - story_understanding - INFO - Best model saved to: models/4directional_tf_model_best.h5
+2025-03-04 18:53:13,674 - story_understanding - INFO - Completed experiment: 4directional_tensorflow_training at 2025-03-04 18:53:13
+2025-03-04 18:53:13,674 - story_understanding - INFO - Best validation accuracy: 0.7000
+2025-03-04 18:53:13,674 - story_understanding - INFO - Final metrics:
+2025-03-04 18:53:13,674 - story_understanding - INFO -   loss (final): 0.6147
+2025-03-04 18:53:13,674 - story_understanding - INFO -   accuracy (final): 0.6800
+2025-03-04 18:53:13,675 - story_understanding - INFO -   val_loss (final): 0.6463
+2025-03-04 18:53:13,675 - story_understanding - INFO -   val_accuracy (final): 0.6500
+2025-03-04 18:53:13,675 - story_understanding - INFO - Done!
+2025-03-04 18:54:13,392 - story_understanding - INFO - Preparing data for 4directional dataset...
+2025-03-04 18:54:13,430 - story_understanding - INFO - Starting experiment: 4directional_tensorflow_experiment at 2025-03-04 18:54:13
+2025-03-04 18:54:13,430 - story_understanding - INFO - Framework: tensorflow
+2025-03-04 18:54:13,430 - story_understanding - INFO - Dataset info:
+2025-03-04 18:54:13,430 - story_understanding - INFO -   name: 4directional
+2025-03-04 18:54:13,431 - story_understanding - INFO -   train_size: 100
+2025-03-04 18:54:13,431 - story_understanding - INFO -   val_size: 20
+2025-03-04 18:54:13,431 - story_understanding - INFO -   vocab_size: 55
+2025-03-04 18:54:13,431 - story_understanding - INFO -   validb_size: 10
+2025-03-04 18:54:13,431 - story_understanding - INFO -   test_size: 10
+2025-03-04 18:54:13,431 - story_understanding - INFO - Loading model from models/4directional_tf_model_best.h5...
+2025-03-04 18:54:16,697 - story_understanding - INFO - Evaluating model on test set...
+2025-03-04 18:54:18,588 - story_understanding - INFO - Evaluation results on test set: Accuracy = 0.6000, Loss = 0.6852
+2025-03-04 18:54:18,588 - story_understanding - INFO - Done!
